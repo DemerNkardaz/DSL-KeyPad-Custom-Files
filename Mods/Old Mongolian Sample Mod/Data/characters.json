@@ -1,0 +1,19 @@
+[
+	"old_mongolian_n_let_[a,e,i,o,u]", {
+		"unicode": [
+			"1820",
+			"1821",
+			"1822",
+			"1823",
+			"1824"
+		],
+		"options": {
+			"altLayoutKey": "$",
+			"useLetterLocale": true
+		}
+	},
+	"old_mongolian_n_let_ue", {
+		"unicode": "1826",
+		"options": {"altLayoutKey": ">! U"}
+	}
+]

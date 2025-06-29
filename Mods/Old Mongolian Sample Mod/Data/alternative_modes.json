@@ -1,0 +1,10 @@
+[
+	"Old Mongolian", {
+		"preview": ["ᠠᠯᠲᠠᠨ ᠵᠤᠯᠠ ᠭᠦᠵᠡᠭᠡᠯᠵᠡᠭᠡᠨ᠎ᠡ"],
+		"fonts": [""],
+		"locale": "mods.old_mongolian",
+		"bindings": ["Old Mongolian"],
+		"uiid": "OldMongolian",
+		"icons": ["%Format('file::{}\\Resources\\old_mongolian.ico', OldMongolianMod.dir)%"]
+	}
+]

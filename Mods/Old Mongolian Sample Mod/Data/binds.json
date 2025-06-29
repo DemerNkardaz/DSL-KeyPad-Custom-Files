@@ -1,0 +1,19 @@
+{
+	"Script Specified": {
+		"Old Mongolian": {
+			"ForceSingle": true,
+			"Flat": {
+				"A": "old_mongolian_n_let_a",
+				"E": "old_mongolian_n_let_e",
+				"I": "old_mongolian_n_let_i",
+				"O": "old_mongolian_n_let_o",
+				"U": "old_mongolian_n_let_u"
+			},
+			"Moded": {
+				"U": {
+					"<^>!": "old_mongolian_n_let_ue"
+				}
+			}
+		}
+	}
+}

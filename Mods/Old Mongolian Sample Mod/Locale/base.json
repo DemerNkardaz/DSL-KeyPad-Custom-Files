@@ -1,0 +1,44 @@
+{
+	"ru-RU": {
+		"mods": {
+			"old_mongolian": {
+				"__self": "Старомонгольское письмо"
+			}
+		},
+		"generated": {
+			"prefix": { "old_mongolian": "Старомонгольск$(ая|ий|ое)" },
+			"tag": { "old_mongolian": "старомонгольск$(ая|ий|ое)" }
+		},
+		"scripts": {
+			"old_mongolian": {
+				"n_let_a": { "letter_locale": "А" },
+				"n_let_e": { "letter_locale": "Э" },
+				"n_let_i": { "letter_locale": "И" },
+				"n_let_o": { "letter_locale": "О" },
+				"n_let_u": { "letter_locale": "У" },
+				"n_let_ue": { "letter_locale": "Уэ" }
+			}
+		}
+	},
+	"en-US": {
+		"mods": {
+			"old_mongolian": {
+				"__self": "Old Mongolian"
+			}
+		},
+		"generated": {
+			"prefix": { "old_mongolian": "Old Mongolian" },
+			"tag": { "old_mongolian": "old mongolian" }
+		},
+		"scripts": {
+			"old_mongolian": {
+				"n_let_a": { "letter_locale": "A" },
+				"n_let_e": { "letter_locale": "E" },
+				"n_let_i": { "letter_locale": "I" },
+				"n_let_o": { "letter_locale": "O" },
+				"n_let_u": { "letter_locale": "U" },
+				"n_let_ue": { "letter_locale": "Ue" }
+			}
+		}
+	}
+}
