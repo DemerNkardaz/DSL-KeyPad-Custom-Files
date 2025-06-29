@@ -1,8 +1,7 @@
 {
-	"scripts": {
-		"label": "Scripts",
-		"type": "Alternative Layout",
-		"group": [ "", "Old Mongolian" ],
-		"groupKey": { "Old Mongolian": "@mods.old_mongolian" }
-	}
+  "scripts": {
+    "type": "Alternative Layout",
+    "group": ["", "Old Mongolian"],
+    "groupKey": { "Old Mongolian": "@mods.old_mongolian" }
+  }
 }
