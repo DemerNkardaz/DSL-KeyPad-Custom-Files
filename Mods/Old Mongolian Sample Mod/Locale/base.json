@@ -5,6 +5,9 @@
 				"__self": "Старомонгольское письмо"
 			}
 		},
+		"script_labels": {
+			"old_mongolian": "{@:mods.old_mongolian}"
+		},
 		"generated": {
 			"prefix": { "old_mongolian": "Старомонгольск$(ая|ий|ое)" },
 			"tag": { "old_mongolian": "старомонгольск$(ая|ий|ое)" }
@@ -25,6 +28,9 @@
 			"old_mongolian": {
 				"__self": "Old Mongolian"
 			}
+		},
+		"script_labels": {
+			"old_mongolian": "{@:mods.old_mongolian}"
 		},
 		"generated": {
 			"prefix": { "old_mongolian": "Old Mongolian" },
