@@ -1,0 +1,13 @@
+{
+	"title": "Old Mongolian Sample Mod",
+	"version": "1.0.0",
+	"type": "pre_init",
+	"description": "A sample mod demonstrating how to add an alternative mode.",
+	"author": "Yalla Nkardaz@https://github.com/DemerNkardaz",
+	"homepage": "https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files",
+	"ru-RU": {
+		"title": "Старомонгольское письмо [пример мода]",
+		"author": "Ялла Нкардаз@https://github.com/DemerNkardaz",
+		"description": "Пример мода, демонстрирующий, как добавить Альтернативный режим."
+	}
+}
