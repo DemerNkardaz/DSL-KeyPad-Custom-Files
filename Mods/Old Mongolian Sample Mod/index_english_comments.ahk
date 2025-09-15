@@ -1,5 +1,5 @@
-Class OldMongolianMod {
-	static dir := mods["Old Mongolian Sample Mod"]
+Class Mod__OldMongolian__Example {
+	static tools := ModTools(A_LineFile)
 
 	static __New() {
 		; Loading data
@@ -7,10 +7,10 @@ Class OldMongolianMod {
 		; about bindings,
 		; about Alternative mode and data
 		; for displaying character entries in the main panel GUI
-		local charactersData := JSON.LoadFile(this.dir "\Data\characters.json", "UTF-8")
-		local bindsData := JSON.LoadFile(this.dir "\Data\binds.json", "UTF-8")
-		local alternativeModeData := JSON.LoadFile(this.dir "\Data\alternative_modes.json", "UTF-8")
-		local uiMainGuiData := JSON.LoadFile(this.dir "\Data\ui_main_panel_lists.json", "UTF-8")
+		local charactersData := JSON.LoadFile(this.tools.paths.data "\characters.json", "UTF-8")
+		local bindsData := JSON.LoadFile(this.tools.paths.data "\binds.json", "UTF-8")
+		local alternativeModeData := JSON.LoadFile(this.tools.paths.data "\alternative_modes.json", "UTF-8")
+		local uiMainGuiData := JSON.LoadFile(this.tools.paths.data "\ui_main_panel_lists.json", "UTF-8")
 
 		; Registration of “old_mongolian” script prefix for correct localization generation
 		; Registration of new characters through “after completion of default inner character library registration” event
