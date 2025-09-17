@@ -1,4 +1,4 @@
-Class Mod__OldMongolian__Example {
+﻿Class Mod__Old_Mongolian_Example {
 	static tools := ModTools(A_LineFile)
 
 	static __New() {

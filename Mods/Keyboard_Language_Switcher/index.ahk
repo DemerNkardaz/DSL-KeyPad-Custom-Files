@@ -1,4 +1,6 @@
-Class YN_KBDLangSwitcher {
+﻿Class Mod__Keyboard_Language_Switcher {
+	static tools := ModTools(A_LineFile)
+
 	static langs := [ ;
 		{ name: "el-GR", id: "408" }, ;
 		{ name: "ru-RU", id: "419" }, ;

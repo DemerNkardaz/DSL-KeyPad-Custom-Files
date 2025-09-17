@@ -1,13 +1,22 @@
-{
+﻿{
 	"title": "「語」Switch languages",
-	"version": "1.0",
+	"version": "1.0.0",
 	"type": "pre_init",
 	"description": "Adds keyboard combinations to quickly switch between some of language layouts:\n\nLCtrl Numpad0 — Greek\nLCtrl Numpad1 — Russian\nLCtrl Numpad2 — English\nLCtrl Numpad3 — Vietnamese\nLCtrl Numpad4 — Japanese\nLCtrl Numpad5 — Simplified Chinese\nLCtrl Numpad6 — Traditional Chinese\nLCtrl Numpad7 — Korean",
 	"author": "Yalla Nkardaz@https://github.com/DemerNkardaz",
 	"homepage": "https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files",
+	"en-US": {
+		"title": "",
+		"version": "",
+		"author": "",
+		"description": "",
+		"homepage": ""
+	},
 	"ru-RU": {
 		"title": "「語」Переключение языков",
+		"version": "",
 		"author": "Ялла Нкардаз@https://github.com/DemerNkardaz",
-		"description": "Добавляет комбинации для быстрой активации некоторых языковых раскладок:\n\nLCtrl Numpad0 — Греческий\nLCtrl Numpad1 — Русский\nLCtrl Numpad2 — Английский\nLCtrl Numpad3 — Вьетнмаский\nLCtrl Numpad4 — Японский\nLCtrl Numpad5 — Упрощённый Китайский\nLCtrl Numpad6 — Традиционный Китайский\nLCtrl Numpad7 — Корейский"
+		"description": "Добавляет комбинации для быстрой активации некоторых языковых раскладок:\n\nLCtrl Numpad0 — Греческий\nLCtrl Numpad1 — Русский\nLCtrl Numpad2 — Английский\nLCtrl Numpad3 — Вьетнмаский\nLCtrl Numpad4 — Японский\nLCtrl Numpad5 — Упрощённый Китайский\nLCtrl Numpad6 — Традиционный Китайский\nLCtrl Numpad7 — Корейский",
+		"homepage": ""
 	}
 }

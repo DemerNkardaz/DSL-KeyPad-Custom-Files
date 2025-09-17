@@ -5,6 +5,6 @@
 		"locale": "old_mongolian",
 		"bindings": ["Old Mongolian"],
 		"uiid": "OldMongolian",
-		"icons": ["<% Format('file::{}\\Resources\\old_mongolian.ico', Mod__OldMongolian__Example.tools.origin) %/>"]
+		"icons": ["<% Format('file::{}\\Resources\\old_mongolian.ico', Mod__Old_Mongolian_Example.tools.origin) %/>"]
 	}
 ]
