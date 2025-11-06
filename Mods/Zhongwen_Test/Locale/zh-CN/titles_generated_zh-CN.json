@@ -130,6 +130,8 @@
 			"postfix": {
 				"with": "有",
 				"with_2": "有",
+				"zh_dai": "带",
+				"zh_de": "的",
 				"and": "和",
 				"schwa_reversed": "倒央元音",
 				"acute": "锐音符",
