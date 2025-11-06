@@ -1,0 +1,42 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"gothic": "哥特字母"
+		},
+		"generated": {
+			"prefix": { "gothic": "哥特" },
+			"tag": { "gothic": "哥特" }
+		},
+		"scripts": {
+			"gothic": {
+				"n_let_a_ahza": { "letter_locale": "阿扎" },
+				"n_let_b_bairkan": { "letter_locale": "拜尔坎" },
+				"n_let_d_dagz": { "letter_locale": "达格兹" },
+				"n_let_e_aihvus": { "letter_locale": "艾兹" },
+				"n_let_f_faihu": { "letter_locale": "法伊胡" },
+				"n_let_g_giba": { "letter_locale": "吉巴" },
+				"n_let_h_hagl": { "letter_locale": "哈格尔" },
+				"n_let_h_hwair": { "letter_locale": "赫瓦尔" },
+				"n_let_i_eis": { "letter_locale": "伊兹" },
+				"n_let_k_kusma": { "letter_locale": "库斯马" },
+				"n_let_k_iggws": { "letter_locale": "英古兹" },
+				"n_let_l_lagus": { "letter_locale": "拉古斯" },
+				"n_let_m_manna": { "letter_locale": "曼纳" },
+				"n_let_n_nauths": { "letter_locale": "瑙斯" },
+				"n_let_o_othal": { "letter_locale": "奥塔尔" },
+				"n_let_p_pairthra": { "letter_locale": "佩尔特拉" },
+				"n_let_q_qairthra": { "letter_locale": "奎尔特拉" },
+				"n_let_r_raida": { "letter_locale": "赖达" },
+				"n_let_s_sugil": { "letter_locale": "苏吉尔" },
+				"n_let_t_thiuth": { "letter_locale": "提乌斯" },
+				"n_let_t_teiws": { "letter_locale": "秋兹" },
+				"n_let_u_urus": { "letter_locale": "乌鲁斯" },
+				"n_let_w_winja": { "letter_locale": "温尼亚" },
+				"n_let_y_jer": { "letter_locale": "加尔" },
+				"n_let_z_ezek": { "letter_locale": "埃泽克" },
+				"n_num_ninety": { "letter_locale": "90" },
+				"n_num_nine_hundred": { "letter_locale": "900" }
+			}
+		}
+	}
+}

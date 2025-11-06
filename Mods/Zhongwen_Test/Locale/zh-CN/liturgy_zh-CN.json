@@ -1,0 +1,21 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"liturgy": "礼拜仪式"
+		},
+		"generated": {
+			"prefix": {
+				"liturgy": "礼拜仪式"
+			},
+			"tag": {
+				"liturgy": "礼拜仪式"
+			}
+		},
+		"scripts": {
+			"liturgy": {
+				"n_sym_versicle": { "letter_locale": "启应句" },
+				"n_sym_response": { "letter_locale": "应答句" }
+			}
+		}
+	}
+}

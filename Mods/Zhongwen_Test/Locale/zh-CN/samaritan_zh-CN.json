@@ -1,0 +1,73 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"samaritan": "撒玛利亚文"
+		},
+		"generated": {
+			"prefix": { "samaritan": "撒玛利亚" },
+			"tag": { "samaritan": "撒玛利亚" }
+		},
+		"scripts": {
+			"samaritan": {
+				"n_let_a_alaf": { "letter_locale": "阿列夫" },
+				"n_let_a_in": { "letter_locale": "因" },
+				"n_let_b_bit": { "letter_locale": "比特" },
+				"n_let_b_baa": { "letter_locale": "巴" },
+				"n_let_d_dalat": { "letter_locale": "达拉特" },
+				"n_let_f_fi": { "letter_locale": "菲" },
+				"n_let_g_gaman": { "letter_locale": "伽曼" },
+				"n_let_h_iy": { "letter_locale": "伊" },
+				"n_let_h_it": { "letter_locale": "伊特" },
+				"n_let_k_kaaf": { "letter_locale": "卡夫" },
+				"n_let_l_labat": { "letter_locale": "拉巴特" },
+				"n_let_m_mim": { "letter_locale": "米姆" },
+				"n_let_n_nun": { "letter_locale": "努恩" },
+				"n_let_q_quf": { "letter_locale": "库夫" },
+				"n_let_r_rish": { "letter_locale": "里什" },
+				"n_let_s_shan": { "letter_locale": "善" },
+				"n_let_s_singaat": { "letter_locale": "辛加特" },
+				"n_let_s_tsaadiy": { "letter_locale": "察迪" },
+				"n_let_t_taaf": { "letter_locale": "塔夫" },
+				"n_let_t_tit": { "letter_locale": "提特" },
+				"n_let_y_yut": { "letter_locale": "尤特" },
+				"n_let_z_zen": { "letter_locale": "泽恩" },
+				"n_sign_a_vowel": { "letter_locale": "A" },
+				"n_sign_a_long_vowel": { "letter_locale": "A长元音" },
+				"n_sign_a_short_vowel": { "letter_locale": "A短元音" },
+				"n_sign_a_overlong_vowel": { "letter_locale": "A超长元音" },
+				"n_sign_a_aa_vowel": { "letter_locale": "AA" },
+				"n_sign_a_aa_long_vowel": { "letter_locale": "AA长元音" },
+				"n_sign_a_aa_overlong_vowel": { "letter_locale": "AA超长元音" },
+				"n_sign_e_vowel": { "letter_locale": "E" },
+				"n_sign_e_long_vowel": { "letter_locale": "E长元音" },
+				"n_sign_i_vowel": { "letter_locale": "I" },
+				"n_sign_i_long_vowel": { "letter_locale": "I长元音" },
+				"n_sign_o_vowel": { "letter_locale": "O" },
+				"n_sign_u_vowel": { "letter_locale": "U" },
+				"n_sign_u_long_vowel": { "letter_locale": "U长元音" },
+				"n_sign_x_sukun_vowel": { "letter_locale": "苏昆" },
+				"n_mark_in": { "letter_locale": "因" },
+				"n_mark_in_alaf": { "letter_locale": "因-阿列夫" },
+				"n_mark_dagesh": { "letter_locale": "达 Gesh" },
+				"n_mark_nequdaa": { "letter_locale": "内库达" },
+				"n_mark_occlusion": { "letter_locale": "阻塞" },
+				"n_mark_epenthetic_yut": { "letter_locale": "插入性尤特" },
+				"n_sym_punctuation_annaau": { "letter_locale": "安瑙" },
+				"n_sym_punctuation_nequdaa": { "letter_locale": "内库达" },
+				"n_sym_punctuation_arkaanu": { "letter_locale": "阿尔卡努" },
+				"n_sym_punctuation_sof_mashfaat": { "letter_locale": "索夫·马什法特" },
+				"n_sym_punctuation_afsaaq": { "letter_locale": "阿夫萨克" },
+				"n_sym_punctuation_anged": { "letter_locale": "安格德" },
+				"n_sym_punctuation_turu": { "letter_locale": "图鲁" },
+				"n_sym_punctuation_bau": { "letter_locale": "巴乌" },
+				"n_sym_punctuation_atmaau": { "letter_locale": "阿特玛乌" },
+				"n_sym_punctuation_shiyyaalaa": { "letter_locale": "希亚拉" },
+				"n_sym_punctuation_abbreviation_mark": { "letter_locale": "缩写标记" },
+				"n_sym_punctuation_ziqaa": { "letter_locale": "西卡" },
+				"n_sym_punctuation_qitsa": { "letter_locale": "基察" },
+				"n_sym_punctuation_zaef": { "letter_locale": "扎埃夫" },
+				"n_sym_punctuation_melodic_qitsa": { "letter_locale": "旋律性基察" }
+			}
+		}
+	}
+}

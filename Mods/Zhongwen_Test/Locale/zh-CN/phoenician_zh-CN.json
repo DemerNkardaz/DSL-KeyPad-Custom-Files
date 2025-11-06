@@ -1,0 +1,44 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"phoenician": "腓尼基字母"
+		},
+		"generated": {
+			"prefix": { "phoenician": "腓尼基" },
+			"tag": { "phoenician": "腓尼基" }
+		},
+		"scripts": {
+			"phoenician": {
+				"n_let_a_alef": { "letter_locale": "Alef" },
+				"n_let_a_ain": { "letter_locale": "Ain" },
+				"n_let_b_bet": { "letter_locale": "Bet" },
+				"n_let_g_gaml": { "letter_locale": "Gaml" },
+				"n_let_d_delt": { "letter_locale": "Delt" },
+				"n_let_h_he": { "letter_locale": "He" },
+				"n_let_h_het": { "letter_locale": "Het" },
+				"n_let_w_wau": { "letter_locale": "Waw" },
+				"n_let_z_zai": { "letter_locale": "Zen" },
+				"n_let_y_yod": { "letter_locale": "Yod" },
+				"n_let_k_kaf": { "letter_locale": "Kaf" },
+				"n_let_l_lamd": { "letter_locale": "Lamd" },
+				"n_let_m_mem": { "letter_locale": "Mem" },
+				"n_let_n_nun": { "letter_locale": "Nun" },
+				"n_let_s_semk": { "letter_locale": "Semk" },
+				"n_let_s_shin": { "letter_locale": "Shin" },
+				"n_let_p_pe": { "letter_locale": "Pe" },
+				"n_let_c_sade": { "letter_locale": "Sade" },
+				"n_let_q_qof": { "letter_locale": "Qof" },
+				"n_let_r_rosh": { "letter_locale": "Rosh" },
+				"n_let_t_tau": { "letter_locale": "Tav" },
+				"n_let_t_tet": { "letter_locale": "Tet" },
+				"n_num_one": { "letter_locale": "一" },
+				"n_num_two": { "letter_locale": "二" },
+				"n_num_three": { "letter_locale": "三" },
+				"n_num_ten": { "letter_locale": "十" },
+				"n_num_twenty": { "letter_locale": "二十" },
+				"n_num_hundred": { "letter_locale": "一百" },
+				"n_sym_word_separator": { "letter_locale": "词语分隔符" }
+			}
+		}
+	}
+}

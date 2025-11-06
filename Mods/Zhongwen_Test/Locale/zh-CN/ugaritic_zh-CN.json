@@ -1,0 +1,46 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"ugaritic": "乌加里特文"
+		},
+		"generated": {
+			"prefix": { "ugaritic": "乌加里特" },
+			"tag": { "ugaritic": "乌加里特" }
+		},
+		"scripts": {
+			"ugaritic": {
+				"n_let_a_alpa": { "letter_locale": "阿尔帕" },
+				"n_let_a_ain": { "letter_locale": "艾因" },
+				"n_let_b_beta": { "letter_locale": "贝塔" },
+				"n_let_d_delta": { "letter_locale": "德尔塔" },
+				"n_let_d_dhal": { "letter_locale": "扎尔" },
+				"n_let_g_gamla": { "letter_locale": "伽姆拉" },
+				"n_let_g_ghain": { "letter_locale": "伽因" },
+				"n_let_h_kha": { "letter_locale": "哈" },
+				"n_let_h_ho": { "letter_locale": "霍" },
+				"n_let_h_hota": { "letter_locale": "霍塔" },
+				"n_let_i": { "letter_locale": "伊" },
+				"n_let_k_kaf": { "letter_locale": "卡夫" },
+				"n_let_l_lamda": { "letter_locale": "拉姆达" },
+				"n_let_m_mem": { "letter_locale": "梅姆" },
+				"n_let_n_nun": { "letter_locale": "农" },
+				"n_let_p_pu": { "letter_locale": "普" },
+				"n_let_q_qopa": { "letter_locale": "科帕" },
+				"n_let_r_rasha": { "letter_locale": "拉沙" },
+				"n_let_s_shin": { "letter_locale": "辛" },
+				"n_let_s_samka": { "letter_locale": "萨姆卡" },
+				"n_let_s_sade": { "letter_locale": "萨德" },
+				"n_let_t_thanna": { "letter_locale": "坦纳" },
+				"n_let_t_tet": { "letter_locale": "泰特" },
+				"n_let_t_to": { "letter_locale": "托" },
+				"n_let_u": { "letter_locale": "乌" },
+				"n_let_s_ssu": { "letter_locale": "苏" },
+				"n_let_w_wo": { "letter_locale": "沃" },
+				"n_let_y_yod": { "letter_locale": "约德" },
+				"n_let_z_zeta": { "letter_locale": "泽塔" },
+				"n_let_z_zu": { "letter_locale": "祖" },
+				"n_sym_word_divider": { "letter_locale": "词语分隔符" }
+			}
+		}
+	}
+}

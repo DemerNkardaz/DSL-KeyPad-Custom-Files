@@ -1,0 +1,31 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"chess": "国际象棋"
+		},
+		"generated": {
+			"prefix": {
+				"chess": "国际象棋$(的|的|的)"
+			},
+			"tag": {
+				"chess": "国际象棋$(的|的|的)"
+			}
+		},
+		"scripts": {
+			"chess": {
+				"n_piece_king": { "letter_locale": "王" },
+				"n_piece_queen": { "letter_locale": "后" },
+				"n_piece_rook": { "letter_locale": "车" },
+				"n_piece_bishop": { "letter_locale": "象" },
+				"n_piece_knight": { "letter_locale": "马" },
+				"n_piece_pawn": { "letter_locale": "兵" },
+				"n_piece_equihopper": { "letter_locale": "等距跳跃棋子" },
+				"n_piece_knight_queen": { "letter_locale": "马后" },
+				"n_piece_knight_rook": { "letter_locale": "马车" },
+				"n_piece_knight_bishop": { "letter_locale": "马象" },
+				"n_piece_ferz": { "letter_locale": "费尔兹" },
+				"n_piece_alfil": { "letter_locale": "阿尔菲尔" }
+			}
+		}
+	}
+}

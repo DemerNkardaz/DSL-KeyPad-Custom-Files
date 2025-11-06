@@ -1,0 +1,16 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"sidetic": "西代特文"
+		},
+		"generated": {
+			"prefix": { "sidetic": "西代特" },
+			"tag": { "sidetic": "西代特" }
+		},
+		"scripts": {
+			"sidetic": {
+
+			}
+		}
+	}
+}

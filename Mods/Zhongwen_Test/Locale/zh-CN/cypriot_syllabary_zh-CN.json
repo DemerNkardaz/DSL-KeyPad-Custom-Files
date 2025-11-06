@@ -1,0 +1,70 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"cypriot_syllabary": "塞浦路斯音节文字"
+		},
+		"generated": {
+			"prefix": { "cypriot_syllabary": "塞浦路斯音节$(的|的|的)" },
+			"tag": { "cypriot_syllabary": "塞浦路斯音节$(的|的|的)" }
+		},
+		"scripts": {
+			"cypriot_syllabary": {
+				"n_syl_a": { "letter_locale": "阿" },
+				"n_syl_e": { "letter_locale": "埃" },
+				"n_syl_i": { "letter_locale": "伊" },
+				"n_syl_o": { "letter_locale": "奥" },
+				"n_syl_u": { "letter_locale": "乌" },
+				"n_syl_k_ka": { "letter_locale": "卡" },
+				"n_syl_k_ke": { "letter_locale": "克" },
+				"n_syl_k_ki": { "letter_locale": "基" },
+				"n_syl_k_ko": { "letter_locale": "科" },
+				"n_syl_k_ku": { "letter_locale": "库" },
+				"n_syl_l_la": { "letter_locale": "拉" },
+				"n_syl_l_le": { "letter_locale": "勒" },
+				"n_syl_l_li": { "letter_locale": "利" },
+				"n_syl_l_lo": { "letter_locale": "洛" },
+				"n_syl_l_lu": { "letter_locale": "卢" },
+				"n_syl_m_ma": { "letter_locale": "马" },
+				"n_syl_m_me": { "letter_locale": "梅" },
+				"n_syl_m_mi": { "letter_locale": "米" },
+				"n_syl_m_mo": { "letter_locale": "莫" },
+				"n_syl_m_mu": { "letter_locale": "穆" },
+				"n_syl_n_na": { "letter_locale": "纳" },
+				"n_syl_n_ne": { "letter_locale": "内" },
+				"n_syl_n_ni": { "letter_locale": "尼" },
+				"n_syl_n_no": { "letter_locale": "诺" },
+				"n_syl_n_nu": { "letter_locale": "努" },
+				"n_syl_p_pa": { "letter_locale": "帕" },
+				"n_syl_p_pe": { "letter_locale": "佩" },
+				"n_syl_p_pi": { "letter_locale": "皮" },
+				"n_syl_p_po": { "letter_locale": "波" },
+				"n_syl_p_pu": { "letter_locale": "普" },
+				"n_syl_r_ra": { "letter_locale": "拉" },
+				"n_syl_r_re": { "letter_locale": "雷" },
+				"n_syl_r_ri": { "letter_locale": "里" },
+				"n_syl_r_ro": { "letter_locale": "罗" },
+				"n_syl_r_ru": { "letter_locale": "鲁" },
+				"n_syl_s_sa": { "letter_locale": "萨" },
+				"n_syl_s_se": { "letter_locale": "塞" },
+				"n_syl_s_si": { "letter_locale": "西" },
+				"n_syl_s_so": { "letter_locale": "索" },
+				"n_syl_s_su": { "letter_locale": "苏" },
+				"n_syl_t_ta": { "letter_locale": "塔" },
+				"n_syl_t_te": { "letter_locale": "特" },
+				"n_syl_t_ti": { "letter_locale": "提" },
+				"n_syl_t_to": { "letter_locale": "托" },
+				"n_syl_t_tu": { "letter_locale": "图" },
+				"n_syl_w_wa": { "letter_locale": "瓦" },
+				"n_syl_w_we": { "letter_locale": "韦" },
+				"n_syl_w_wi": { "letter_locale": "维" },
+				"n_syl_w_wo": { "letter_locale": "沃" },
+				"n_syl_x_xa": { "letter_locale": "克萨" },
+				"n_syl_x_xe": { "letter_locale": "克塞" },
+				"n_syl_y_ja": { "letter_locale": "亚" },
+				"n_syl_y_jo": { "letter_locale": "约" },
+				"n_syl_z_za": { "letter_locale": "扎" },
+				"n_syl_z_zo": { "letter_locale": "佐" }
+			}
+		}
+	}
+}

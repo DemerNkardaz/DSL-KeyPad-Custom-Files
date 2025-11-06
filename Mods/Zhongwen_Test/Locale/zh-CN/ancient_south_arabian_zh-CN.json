@@ -1,0 +1,47 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"ancient_south_arabian": "古代南阿拉伯文"
+		},
+		"generated": {
+			"prefix": { "south_arabian": "古代南阿拉伯$(的|的|的)" },
+			"tag": { "south_arabian": "古代南阿拉伯$(的|的|的)" }
+		},
+		"scripts": {
+			"south_arabian": {
+				"n_let_a_alef": { "letter_locale": "艾利夫" },
+				"n_let_a_ayn": { "letter_locale": "艾因" },
+				"n_let_b_beth": { "letter_locale": "贝斯" },
+				"n_let_d_daleth": { "letter_locale": "达莱斯" },
+				"n_let_d_dhaleth": { "letter_locale": "萨莱斯" },
+				"n_let_d_dhadhe": { "letter_locale": "萨泽" },
+				"n_let_f_fe": { "letter_locale": "费" },
+				"n_let_g_gimel": { "letter_locale": "吉梅尔" },
+				"n_let_g_ghayn": { "letter_locale": "盖因" },
+				"n_let_h_he": { "letter_locale": "赫" },
+				"n_let_h_heth": { "letter_locale": "赫斯" },
+				"n_let_h_kheth": { "letter_locale": "赫斯" },
+				"n_let_k_kaph": { "letter_locale": "卡夫" },
+				"n_let_l_lamedh": { "letter_locale": "拉梅兹" },
+				"n_let_m_mem": { "letter_locale": "梅姆" },
+				"n_let_n_nun": { "letter_locale": "努恩" },
+				"n_let_q_qoph": { "letter_locale": "阔夫" },
+				"n_let_r_resh": { "letter_locale": "雷什" },
+				"n_let_s_sat": { "letter_locale": "萨特" },
+				"n_let_s_samekh": { "letter_locale": "萨梅赫" },
+				"n_let_s_shin": { "letter_locale": "辛" },
+				"n_let_s_sadhe": { "letter_locale": "萨泽" },
+				"n_let_t_taw": { "letter_locale": "塔乌" },
+				"n_let_t_theth": { "letter_locale": "塞斯" },
+				"n_let_t_teth": { "letter_locale": "特斯" },
+				"n_let_t_thaw": { "letter_locale": "萨乌" },
+				"n_let_w_waw": { "letter_locale": "瓦乌" },
+				"n_let_y_yodh": { "letter_locale": "约兹" },
+				"n_let_z_zayn": { "letter_locale": "扎因" },
+				"n_num_one": { "letter_locale": "一" },
+				"n_num_fifty": { "letter_locale": "五十" },
+				"n_sym_numeral_bracket": { "letter_locale": "数字括号" }
+			}
+		}
+	}
+}

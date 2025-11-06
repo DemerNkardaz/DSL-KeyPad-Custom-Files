@@ -1,0 +1,967 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"zhongguo": "中国",
+			"taoist": "道教",
+			"yijing": "易经",
+			"taixuanjing": "太玄经",
+			"mahjong": "麻将",
+			"xiangqi": "象棋"
+		},
+		"generated": {
+			"prefix": {
+				"zhongguo": "中国",
+				"taoist": "道教",
+				"yijing": "易经",
+				"taixuanjing": "太玄经",
+				"mahjong": "麻将",
+				"xiangqi": "象棋"
+			},
+			"tag": {
+				"zhongguo": "中国",
+				"taoist": "道教",
+				"yijing": "易经",
+				"taixuanjing": "太玄经",
+				"mahjong": "麻将",
+				"xiangqi": "象棋"
+			},
+			"type": {
+				"monogram": "一爻",
+				"digram": "二爻",
+				"trigram": "三爻",
+				"tetragram": "四爻",
+				"hexagram": "六爻"
+			},
+			"before_letter": {
+				"yao": "爻",
+				"si_xiang": "四象",
+				"bagua": "八卦",
+				"liushisigua": "六十四卦",
+				"sancai": "三才",
+				"bashiyishou": "八十一首",
+				"tongzi": "筒子",
+				"suozi": "索子",
+				"wanzi": "万子"
+			},
+			"after_letter": {
+				"yao": "爻",
+				"si_xiang": "四象",
+				"bagua": "八卦",
+				"liushisigua": "六十四卦",
+				"sancai": "三才",
+				"bashiyishou": "八十一首",
+				"tongzi": "筒子",
+				"suozi": "索子",
+				"wanzi": "万子",
+				"flowers": "花牌",
+				"seasons": "季牌",
+				"suited": "序数牌",
+				"honors": "字牌"
+			}
+		},
+		"scripts": {
+			"zhongguo": {
+				"n_sym_fu": {
+					"letter_locale": "福",
+					"meaning": "[福气]"
+				},
+				"n_sym_lu": {
+					"letter_locale": "禄",
+					"meaning": "[财富]"
+				},
+				"n_sym_shou": {
+					"letter_locale": "寿",
+					"meaning": "[长寿]"
+				},
+				"n_sym_xi": {
+					"letter_locale": "喜",
+					"meaning": "[喜庆]"
+				},
+				"n_sym_shuangxi": {
+					"letter_locale": "双喜",
+					"meaning": "[爱情][婚姻]"
+				},
+				"n_sym_cai": {
+					"letter_locale": "财",
+					"meaning": "[财富]"
+				}
+			},
+			"taoist": {
+				"n_sym_yinyang": {
+					"letter_locale": "阴阳"
+				}
+			},
+			"yijing": {
+				"n_sym_monogram_1_yin": {
+					"letter_locale": "阴"
+				},
+				"n_sym_monogram_2_yang": {
+					"letter_locale": "阳"
+				},
+				"n_sym_digram_1_greater_yin": {
+					"letter_locale": "太阴"
+				},
+				"n_sym_digram_2_lesser_yang": {
+					"letter_locale": "少阳"
+				},
+				"n_sym_digram_3_lesser_yin": {
+					"letter_locale": "少阴"
+				},
+				"n_sym_digram_4_greater_yang": {
+					"letter_locale": "太阳"
+				},
+				"n_sym_trigram_1_qian": {
+					"letter_locale": "乾",
+					"meaning": "[天][南]"
+				},
+				"n_sym_trigram_2_dui": {
+					"letter_locale": "兑",
+					"meaning": "[泽][东南]"
+				},
+				"n_sym_trigram_3_li": {
+					"letter_locale": "离",
+					"meaning": "[火][东]"
+				},
+				"n_sym_trigram_4_zhen": {
+					"letter_locale": "震",
+					"meaning": "[雷][东北]"
+				},
+				"n_sym_trigram_5_xun": {
+					"letter_locale": "巽",
+					"meaning": "[风][西南]"
+				},
+				"n_sym_trigram_6_kan": {
+					"letter_locale": "坎",
+					"meaning": "[水][西]"
+				},
+				"n_sym_trigram_7_gen": {
+					"letter_locale": "艮",
+					"meaning": "[山][西北]"
+				},
+				"n_sym_trigram_8_kun": {
+					"letter_locale": "坤",
+					"meaning": "[地][北]"
+				},
+				"n_sym_hexagram_1_qian": {
+					"letter_locale": "乾",
+					"meaning": "[刚健]"
+				},
+				"n_sym_hexagram_2_kun": {
+					"letter_locale": "坤",
+					"meaning": "[柔顺]"
+				},
+				"n_sym_hexagram_3_zhun": {
+					"letter_locale": "屯",
+					"meaning": "[始生]"
+				},
+				"n_sym_hexagram_4_meng": {
+					"letter_locale": "蒙",
+					"meaning": "[启蒙]"
+				},
+				"n_sym_hexagram_5_xu": {
+					"letter_locale": "需",
+					"meaning": "[等待]"
+				},
+				"n_sym_hexagram_6_song": {
+					"letter_locale": "讼",
+					"meaning": "[争讼]"
+				},
+				"n_sym_hexagram_7_shi": {
+					"letter_locale": "师",
+					"meaning": "[统率]"
+				},
+				"n_sym_hexagram_8_bi": {
+					"letter_locale": "比",
+					"meaning": "[亲附]"
+				},
+				"n_sym_hexagram_9_xiachu": {
+					"letter_locale": "小畜",
+					"meaning": "[小积]"
+				},
+				"n_sym_hexagram_10_li": {
+					"letter_locale": "履",
+					"meaning": "[践行]"
+				},
+				"n_sym_hexagram_11_tai": {
+					"letter_locale": "泰",
+					"meaning": "[通达]"
+				},
+				"n_sym_hexagram_12_pi": {
+					"letter_locale": "否",
+					"meaning": "[阻塞]"
+				},
+				"n_sym_hexagram_13_tongren": {
+					"letter_locale": "同人",
+					"meaning": "[同心]"
+				},
+				"n_sym_hexagram_14_dayou": {
+					"letter_locale": "大有",
+					"meaning": "[丰盛]"
+				},
+				"n_sym_hexagram_15_qian": {
+					"letter_locale": "谦",
+					"meaning": "[谦逊]"
+				},
+				"n_sym_hexagram_16_yu": {
+					"letter_locale": "豫",
+					"meaning": "[安乐]"
+				},
+				"n_sym_hexagram_17_sui": {
+					"letter_locale": "随",
+					"meaning": "[随从]"
+				},
+				"n_sym_hexagram_18_gu": {
+					"letter_locale": "蛊",
+					"meaning": "[整治]"
+				},
+				"n_sym_hexagram_19_lin": {
+					"letter_locale": "临",
+					"meaning": "[临察]"
+				},
+				"n_sym_hexagram_20_guan": {
+					"letter_locale": "观",
+					"meaning": "[观察]"
+				},
+				"n_sym_hexagram_21_shi_ke": {
+					"letter_locale": "噬嗑",
+					"meaning": "[咬合]"
+				},
+				"n_sym_hexagram_22_bi": {
+					"letter_locale": "贲",
+					"meaning": "[文饰]"
+				},
+				"n_sym_hexagram_23_bo": {
+					"letter_locale": "剥",
+					"meaning": "[剥落]"
+				},
+				"n_sym_hexagram_24_fu": {
+					"letter_locale": "复",
+					"meaning": "[回复]"
+				},
+				"n_sym_hexagram_25_wu_wang": {
+					"letter_locale": "无妄",
+					"meaning": "[无妄]"
+				},
+				"n_sym_hexagram_26_da_chu": {
+					"letter_locale": "大畜",
+					"meaning": "[大积]"
+				},
+				"n_sym_hexagram_27_yi": {
+					"letter_locale": "颐",
+					"meaning": "[颐养]"
+				},
+				"n_sym_hexagram_28_da_guo": {
+					"letter_locale": "大过",
+					"meaning": "[大过]"
+				},
+				"n_sym_hexagram_29_kan": {
+					"letter_locale": "坎",
+					"meaning": "[险陷]"
+				},
+				"n_sym_hexagram_30_li": {
+					"letter_locale": "离",
+					"meaning": "[附丽]"
+				},
+				"n_sym_hexagram_31_xian": {
+					"letter_locale": "咸",
+					"meaning": "[感应]"
+				},
+				"n_sym_hexagram_32_heng": {
+					"letter_locale": "恒",
+					"meaning": "[恒久]"
+				},
+				"n_sym_hexagram_33_dun": {
+					"letter_locale": "遁",
+					"meaning": "[退避]"
+				},
+				"n_sym_hexagram_34_da_zhuang": {
+					"letter_locale": "大壮",
+					"meaning": "[大壮]"
+				},
+				"n_sym_hexagram_35_jin": {
+					"letter_locale": "晋",
+					"meaning": "[前进]"
+				},
+				"n_sym_hexagram_36_ming_yi": {
+					"letter_locale": "明夷",
+					"meaning": "[明伤]"
+				},
+				"n_sym_hexagram_37_jia_ren": {
+					"letter_locale": "家人",
+					"meaning": "[家人]"
+				},
+				"n_sym_hexagram_38_kui": {
+					"letter_locale": "睽",
+					"meaning": "[乖离]"
+				},
+				"n_sym_hexagram_39_jian": {
+					"letter_locale": "蹇",
+					"meaning": "[艰难]"
+				},
+				"n_sym_hexagram_40_xie": {
+					"letter_locale": "解",
+					"meaning": "[解脱]"
+				},
+				"n_sym_hexagram_41_sun": {
+					"letter_locale": "损",
+					"meaning": "[减损]"
+				},
+				"n_sym_hexagram_42_yi": {
+					"letter_locale": "益",
+					"meaning": "[增益]"
+				},
+				"n_sym_hexagram_43_guai": {
+					"letter_locale": "夬",
+					"meaning": "[决断]"
+				},
+				"n_sym_hexagram_44_gou": {
+					"letter_locale": "姤",
+					"meaning": "[相遇]"
+				},
+				"n_sym_hexagram_45_cui": {
+					"letter_locale": "萃",
+					"meaning": "[聚集]"
+				},
+				"n_sym_hexagram_46_sheng": {
+					"letter_locale": "升",
+					"meaning": "[上升]"
+				},
+				"n_sym_hexagram_47_kun": {
+					"letter_locale": "困",
+					"meaning": "[困顿]"
+				},
+				"n_sym_hexagram_48_jing": {
+					"letter_locale": "井",
+					"meaning": "[水井]"
+				},
+				"n_sym_hexagram_49_ge": {
+					"letter_locale": "革",
+					"meaning": "[变革]"
+				},
+				"n_sym_hexagram_50_ding": {
+					"letter_locale": "鼎",
+					"meaning": "[鼎立]"
+				},
+				"n_sym_hexagram_51_zhen": {
+					"letter_locale": "震",
+					"meaning": "[震动]"
+				},
+				"n_sym_hexagram_52_gen": {
+					"letter_locale": "艮",
+					"meaning": "[静止]"
+				},
+				"n_sym_hexagram_53_jian": {
+					"letter_locale": "渐",
+					"meaning": "[渐进]"
+				},
+				"n_sym_hexagram_54_gui_mei": {
+					"letter_locale": "归妹",
+					"meaning": "[归嫁]"
+				},
+				"n_sym_hexagram_55_feng": {
+					"letter_locale": "丰",
+					"meaning": "[丰盛]"
+				},
+				"n_sym_hexagram_56_lu": {
+					"letter_locale": "旅",
+					"meaning": "[行旅]"
+				},
+				"n_sym_hexagram_57_xun": {
+					"letter_locale": "巽",
+					"meaning": "[顺从]"
+				},
+				"n_sym_hexagram_58_dui": {
+					"letter_locale": "兑",
+					"meaning": "[喜悦]"
+				},
+				"n_sym_hexagram_59_huan": {
+					"letter_locale": "涣",
+					"meaning": "[涣散]"
+				},
+				"n_sym_hexagram_60_jie": {
+					"letter_locale": "节",
+					"meaning": "[节制]"
+				},
+				"n_sym_hexagram_61_zhong_fu": {
+					"letter_locale": "中孚",
+					"meaning": "[诚信]"
+				},
+				"n_sym_hexagram_62_xiao_guo": {
+					"letter_locale": "小过",
+					"meaning": "[小过]"
+				},
+				"n_sym_hexagram_63_ji_ji": {
+					"letter_locale": "既济",
+					"meaning": "[既成]"
+				},
+				"n_sym_hexagram_64_wei_ji": {
+					"letter_locale": "未济",
+					"meaning": "[未成]"
+				}
+			},
+			"taixuanjing": {
+				"n_sym_monogram_1_di": {
+					"letter_locale": "地",
+					"meaning": "[地]"
+				},
+				"n_sym_monogram_2_tian": {
+					"letter_locale": "天",
+					"meaning": "[天]"
+				},
+				"n_sym_monogram_3_ren": {
+					"letter_locale": "人",
+					"meaning": "[人]"
+				},
+				"n_sym_digram_1_di_di": {
+					"letter_locale": "地地"
+				},
+				"n_sym_digram_2_tian_di": {
+					"letter_locale": "天地"
+				},
+				"n_sym_digram_3_di_tian": {
+					"letter_locale": "地天"
+				},
+				"n_sym_digram_4_tian_tian": {
+					"letter_locale": "天天"
+				},
+				"n_sym_digram_5_tian_ren": {
+					"letter_locale": "天人"
+				},
+				"n_sym_digram_6_di_ren": {
+					"letter_locale": "地人"
+				},
+				"n_sym_digram_7_ren_tian": {
+					"letter_locale": "人天"
+				},
+				"n_sym_digram_8_ren_di": {
+					"letter_locale": "人地"
+				},
+				"n_sym_digram_9_ren_ren": {
+					"letter_locale": "人人"
+				},
+				"n_sym_tetragram_1_zhong": {
+					"letter_locale": "中",
+					"meaning": "[中正]"
+				},
+				"n_sym_tetragram_2_zhou": {
+					"letter_locale": "周",
+					"meaning": "[周遍]"
+				},
+				"n_sym_tetragram_3_xin": {
+					"letter_locale": "䜣",
+					"meaning": "[陷溺]"
+				},
+				"n_sym_tetragram_4_xian": {
+					"letter_locale": "闲",
+					"meaning": "[阻隔]"
+				},
+				"n_sym_tetragram_5_shao": {
+					"letter_locale": "少",
+					"meaning": "[守小]"
+				},
+				"n_sym_tetragram_6_li": {
+					"letter_locale": "戾",
+					"meaning": "[乖戾]"
+				},
+				"n_sym_tetragram_7_shang": {
+					"letter_locale": "上",
+					"meaning": "[上升]"
+				},
+				"n_sym_tetragram_8_gan": {
+					"letter_locale": "干",
+					"meaning": "[干犯]"
+				},
+				"n_sym_tetragram_9_shu": {
+					"letter_locale": "狩",
+					"meaning": "[狩行]"
+				},
+				"n_sym_tetragram_10_xian": {
+					"letter_locale": "羡",
+					"meaning": "[羡欲]"
+				},
+				"n_sym_tetragram_11_cha": {
+					"letter_locale": "差",
+					"meaning": "[差失]"
+				},
+				"n_sym_tetragram_12_tong": {
+					"letter_locale": "童",
+					"meaning": "[童蒙]"
+				},
+				"n_sym_tetragram_13_zeng": {
+					"letter_locale": "增",
+					"meaning": "[增益]"
+				},
+				"n_sym_tetragram_14_rui": {
+					"letter_locale": "锐",
+					"meaning": "[锐进]"
+				},
+				"n_sym_tetragram_15_da": {
+					"letter_locale": "达",
+					"meaning": "[通达]"
+				},
+				"n_sym_tetragram_16_jiao": {
+					"letter_locale": "交",
+					"meaning": "[交合]"
+				},
+				"n_sym_tetragram_17_ruan": {
+					"letter_locale": "耎",
+					"meaning": "[柔弱]"
+				},
+				"n_sym_tetragram_18_xi": {
+					"letter_locale": "傒",
+					"meaning": "[等待]"
+				},
+				"n_sym_tetragram_19_cong": {
+					"letter_locale": "从",
+					"meaning": "[随从]"
+				},
+				"n_sym_tetragram_20_jin": {
+					"letter_locale": "进",
+					"meaning": "[前进]"
+				},
+				"n_sym_tetragram_21_shi": {
+					"letter_locale": "释",
+					"meaning": "[释放]"
+				},
+				"n_sym_tetragram_22_ge": {
+					"letter_locale": "格",
+					"meaning": "[阻格]"
+				},
+				"n_sym_tetragram_23_yi": {
+					"letter_locale": "夷",
+					"meaning": "[平易]"
+				},
+				"n_sym_tetragram_24_le": {
+					"letter_locale": "乐",
+					"meaning": "[快乐]"
+				},
+				"n_sym_tetragram_25_zheng": {
+					"letter_locale": "争",
+					"meaning": "[争竞]"
+				},
+				"n_sym_tetragram_26_wu": {
+					"letter_locale": "务",
+					"meaning": "[务本]"
+				},
+				"n_sym_tetragram_27_shi": {
+					"letter_locale": "事",
+					"meaning": "[职事]"
+				},
+				"n_sym_tetragram_28_geng": {
+					"letter_locale": "更",
+					"meaning": "[变更]"
+				},
+				"n_sym_tetragram_29_duan": {
+					"letter_locale": "断",
+					"meaning": "[决断]"
+				},
+				"n_sym_tetragram_30_yi": {
+					"letter_locale": "毅",
+					"meaning": "[刚毅]"
+				},
+				"n_sym_tetragram_31_zhuang": {
+					"letter_locale": "装",
+					"meaning": "[装束]"
+				},
+				"n_sym_tetragram_32_zhong": {
+					"letter_locale": "众",
+					"meaning": "[众多]"
+				},
+				"n_sym_tetragram_33_mi": {
+					"letter_locale": "密",
+					"meaning": "[紧密]"
+				},
+				"n_sym_tetragram_34_qin": {
+					"letter_locale": "亲",
+					"meaning": "[亲爱]"
+				},
+				"n_sym_tetragram_35_lian": {
+					"letter_locale": "敛",
+					"meaning": "[收敛]"
+				},
+				"n_sym_tetragram_36_qiang": {
+					"letter_locale": "强",
+					"meaning": "[刚强]"
+				},
+				"n_sym_tetragram_37_sui": {
+					"letter_locale": "粹",
+					"meaning": "[纯粹]"
+				},
+				"n_sym_tetragram_38_sheng": {
+					"letter_locale": "盛",
+					"meaning": "[盛大]"
+				},
+				"n_sym_tetragram_39_ju": {
+					"letter_locale": "居",
+					"meaning": "[居处]"
+				},
+				"n_sym_tetragram_40_fa": {
+					"letter_locale": "法",
+					"meaning": "[法则]"
+				},
+				"n_sym_tetragram_41_ying": {
+					"letter_locale": "应",
+					"meaning": "[应和]"
+				},
+				"n_sym_tetragram_42_ying": {
+					"letter_locale": "迎",
+					"meaning": "[迎接]"
+				},
+				"n_sym_tetragram_43_yu": {
+					"letter_locale": "遇",
+					"meaning": "[遇合]"
+				},
+				"n_sym_tetragram_44_zao": {
+					"letter_locale": "灶",
+					"meaning": "[灶火]"
+				},
+				"n_sym_tetragram_45_da": {
+					"letter_locale": "大",
+					"meaning": "[宏大]"
+				},
+				"n_sym_tetragram_46_kuo": {
+					"letter_locale": "廓",
+					"meaning": "[广阔]"
+				},
+				"n_sym_tetragram_47_wen": {
+					"letter_locale": "文",
+					"meaning": "[文饰]"
+				},
+				"n_sym_tetragram_48_li": {
+					"letter_locale": "礼",
+					"meaning": "[礼仪]"
+				},
+				"n_sym_tetragram_49_tao": {
+					"letter_locale": "逃",
+					"meaning": "[逃避]"
+				},
+				"n_sym_tetragram_50_tang": {
+					"letter_locale": "唐",
+					"meaning": "[浩荡]"
+				},
+				"n_sym_tetragram_51_chang": {
+					"letter_locale": "常",
+					"meaning": "[恒常]"
+				},
+				"n_sym_tetragram_52_du": {
+					"letter_locale": "度",
+					"meaning": "[法度]"
+				},
+				"n_sym_tetragram_53_yong": {
+					"letter_locale": "永",
+					"meaning": "[永久]"
+				},
+				"n_sym_tetragram_54_kun": {
+					"letter_locale": "昆",
+					"meaning": "[同齐]"
+				},
+				"n_sym_tetragram_55_jian": {
+					"letter_locale": "减",
+					"meaning": "[减损]"
+				},
+				"n_sym_tetragram_56_jin": {
+					"letter_locale": "唫",
+					"meaning": "[闭口]"
+				},
+				"n_sym_tetragram_57_shou": {
+					"letter_locale": "守",
+					"meaning": "[守持]"
+				},
+				"n_sym_tetragram_58_xi": {
+					"letter_locale": "翕",
+					"meaning": "[收敛]"
+				},
+				"n_sym_tetragram_59_ju": {
+					"letter_locale": "聚",
+					"meaning": "[聚集]"
+				},
+				"n_sym_tetragram_60_ji": {
+					"letter_locale": "积",
+					"meaning": "[积累]"
+				},
+				"n_sym_tetragram_61_shi": {
+					"letter_locale": "饰",
+					"meaning": "[修饰]"
+				},
+				"n_sym_tetragram_62_yi": {
+					"letter_locale": "疑",
+					"meaning": "[疑惧]"
+				},
+				"n_sym_tetragram_63_shi": {
+					"letter_locale": "视",
+					"meaning": "[观察]"
+				},
+				"n_sym_tetragram_64_chen": {
+					"letter_locale": "沈",
+					"meaning": "[沉没]"
+				},
+				"n_sym_tetragram_65_nei": {
+					"letter_locale": "内",
+					"meaning": "[内在]"
+				},
+				"n_sym_tetragram_66_qu": {
+					"letter_locale": "去",
+					"meaning": "[离去]"
+				},
+				"n_sym_tetragram_67_hui": {
+					"letter_locale": "晦",
+					"meaning": "[晦暗]"
+				},
+				"n_sym_tetragram_68_meng": {
+					"letter_locale": "瞢",
+					"meaning": "[蒙昧]"
+				},
+				"n_sym_tetragram_69_qiong": {
+					"letter_locale": "穷",
+					"meaning": "[穷尽]"
+				},
+				"n_sym_tetragram_70_ge": {
+					"letter_locale": "割",
+					"meaning": "[割断]"
+				},
+				"n_sym_tetragram_71_zhi": {
+					"letter_locale": "止",
+					"meaning": "[停止]"
+				},
+				"n_sym_tetragram_72_jian": {
+					"letter_locale": "坚",
+					"meaning": "[坚固]"
+				},
+				"n_sym_tetragram_73_cheng": {
+					"letter_locale": "成",
+					"meaning": "[完成]"
+				},
+				"n_sym_tetragram_74_zhi": {
+					"letter_locale": "致",
+					"meaning": "[极致]"
+				},
+				"n_sym_tetragram_75_shi": {
+					"letter_locale": "失",
+					"meaning": "[失败]"
+				},
+				"n_sym_tetragram_76_ju": {
+					"letter_locale": "剧",
+					"meaning": "[剧烈]"
+				},
+				"n_sym_tetragram_77_xun": {
+					"letter_locale": "驯",
+					"meaning": "[驯顺]"
+				},
+				"n_sym_tetragram_78_jiang": {
+					"letter_locale": "将",
+					"meaning": "[将近]"
+				},
+				"n_sym_tetragram_79_nan": {
+					"letter_locale": "难",
+					"meaning": "[艰难]"
+				},
+				"n_sym_tetragram_80_qin": {
+					"letter_locale": "勤",
+					"meaning": "[勤劳]"
+				},
+				"n_sym_tetragram_81_yang": {
+					"letter_locale": "养",
+					"meaning": "[养育]"
+				}
+			},
+			"mahjong": {
+				"n_dice_suited_1_yi": {
+					"letter_locale": "一",
+					"meaning": {
+						"tongzi": "[一筒]",
+						"suozi": "[一条]",
+						"wanzi": "[一万]"
+					}
+				},
+				"n_dice_suited_2_er": {
+					"letter_locale": "二",
+					"meaning": {
+						"tongzi": "[二筒]",
+						"suozi": "[二条]",
+						"wanzi": "[二万]"
+					}
+				},
+				"n_dice_suited_3_san": {
+					"letter_locale": "三",
+					"meaning": {
+						"tongzi": "[三筒]",
+						"suozi": "[三条]",
+						"wanzi": "[三万]"
+					}
+				},
+				"n_dice_suited_4_si": {
+					"letter_locale": "四",
+					"meaning": {
+						"tongzi": "[四筒]",
+						"suozi": "[四条]",
+						"wanzi": "[四万]"
+					}
+				},
+				"n_dice_suited_5_wu": {
+					"letter_locale": "五",
+					"meaning": {
+						"tongzi": "[五筒]",
+						"suozi": "[五条]",
+						"wanzi": "[五万]"
+					}
+				},
+				"n_dice_suited_6_liu": {
+					"letter_locale": "六",
+					"meaning": {
+						"tongzi": "[六筒]",
+						"suozi": "[六条]",
+						"wanzi": "[六万]"
+					}
+				},
+				"n_dice_suited_7_qi": {
+					"letter_locale": "七",
+					"meaning": {
+						"tongzi": "[七筒]",
+						"suozi": "[七条]",
+						"wanzi": "[七万]"
+					}
+				},
+				"n_dice_suited_8_ba": {
+					"letter_locale": "八",
+					"meaning": {
+						"tongzi": "[八筒]",
+						"suozi": "[八条]",
+						"wanzi": "[八万]"
+					}
+				},
+				"n_dice_suited_9_jiu": {
+					"letter_locale": "九",
+					"meaning": {
+						"tongzi": "[九筒]",
+						"suozi": "[九条]",
+						"wanzi": "[九万]"
+					}
+				},
+				"n_dice_honors_1_dong_feng": {
+					"letter_locale": "东风",
+					"meaning": "[东风]"
+				},
+				"n_dice_honors_2_nan_feng": {
+					"letter_locale": "南风",
+					"meaning": "[南风]"
+				},
+				"n_dice_honors_3_xi_feng": {
+					"letter_locale": "西风",
+					"meaning": "[西风]"
+				},
+				"n_dice_honors_4_bei_feng": {
+					"letter_locale": "北风",
+					"meaning": "[北风]"
+				},
+				"n_dice_honors_5_hongzhong": {
+					"letter_locale": "红中",
+					"meaning": "[红中]"
+				},
+				"n_dice_honors_6_facai": {
+					"letter_locale": "发财",
+					"meaning": "[发财]"
+				},
+				"n_dice_honors_7_baiban": {
+					"letter_locale": "白板",
+					"meaning": "[白板]"
+				},
+				"n_dice_flowers_1_meihua": {
+					"letter_locale": "梅花",
+					"meaning": "[梅花]"
+				},
+				"n_dice_flowers_2_lanhua": {
+					"letter_locale": "兰花",
+					"meaning": "[兰花]"
+				},
+				"n_dice_flowers_3_juhua": {
+					"letter_locale": "菊花",
+					"meaning": "[菊花]"
+				},
+				"n_dice_flowers_4_zhuzi": {
+					"letter_locale": "竹子",
+					"meaning": "[竹子]"
+				},
+				"n_dice_seasons_1_chun": {
+					"letter_locale": "春",
+					"meaning": "[春]"
+				},
+				"n_dice_seasons_2_xia": {
+					"letter_locale": "夏",
+					"meaning": "[夏]"
+				},
+				"n_dice_seasons_3_qiu": {
+					"letter_locale": "秋",
+					"meaning": "[秋]"
+				},
+				"n_dice_seasons_4_dong": {
+					"letter_locale": "冬",
+					"meaning": "[冬]"
+				},
+				"n_dice_back": {
+					"letter_locale": "背面"
+				},
+				"n_dice_joker": {
+					"letter_locale": "百搭牌"
+				}
+			},
+			"xiangqi": {
+				"n_piece_hongse_1_shuai": {
+					"letter_locale": "帅",
+					"meaning": "[帅]"
+				},
+				"n_piece_hongse_2_shi": {
+					"letter_locale": "仕",
+					"meaning": "[仕]"
+				},
+				"n_piece_hongse_3_xiang": {
+					"letter_locale": "相",
+					"meaning": "[相]"
+				},
+				"n_piece_hongse_4_ma": {
+					"letter_locale": "马",
+					"meaning": "[马]"
+				},
+				"n_piece_hongse_5_che": {
+					"letter_locale": "车",
+					"meaning": "[车]"
+				},
+				"n_piece_hongse_6_pao": {
+					"letter_locale": "炮",
+					"meaning": "[炮]"
+				},
+				"n_piece_hongse_7_bing": {
+					"letter_locale": "兵",
+					"meaning": "[兵]"
+				},
+				"n_piece_heise_1_jiang": {
+					"letter_locale": "将",
+					"meaning": "[将]"
+				},
+				"n_piece_heise_2_shi": {
+					"letter_locale": "士",
+					"meaning": "[士]"
+				},
+				"n_piece_heise_3_xiang": {
+					"letter_locale": "象",
+					"meaning": "[象]"
+				},
+				"n_piece_heise_4_ma": {
+					"letter_locale": "马",
+					"meaning": "[马]"
+				},
+				"n_piece_heise_5_che": {
+					"letter_locale": "车",
+					"meaning": "[车]"
+				},
+				"n_piece_heise_6_pao": {
+					"letter_locale": "炮",
+					"meaning": "[炮]"
+				},
+				"n_piece_heise_7_zu": {
+					"letter_locale": "卒",
+					"meaning": "[卒]"
+				}
+			}
+		}
+	}
+}

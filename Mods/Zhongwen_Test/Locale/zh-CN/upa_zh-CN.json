@@ -1,0 +1,18 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"upa": {
+				"__self": "乌拉尔音标",
+				"short": "乌音标"
+			}
+		},
+		"scripts": {
+			"latin": {
+				"s_let_s_voiced_laryngeal_spirant": {
+					"layout_locale": "浊喉擦音",
+					"second_name": "（乌拉尔音标）"
+				}
+			}
+		}
+	}
+}

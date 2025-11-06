@@ -1,0 +1,20 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"domino": "多米诺骨牌"
+		},
+		"generated": {
+			"prefix": {
+				"domino": "多米诺"
+			},
+			"tag": {
+				"domino": "多米诺"
+			}
+		},
+		"scripts": {
+			"domino": {
+				"n_tile_back": { "letter_locale": "(牌背面)" }
+			}
+		}
+	}
+}

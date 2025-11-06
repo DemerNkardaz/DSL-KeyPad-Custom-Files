@@ -1,0 +1,22 @@
+﻿{
+	"title": "中文",
+	"version": "1.0.0",
+	"type": "pre_init",
+	"description": "Mods demonstrates addition of new language localization.",
+	"author": "Yalla Nkardaz@https://github.com/DemerNkardaz",
+	"homepage": "https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files",
+	"en-US": {
+		"title": "中文 (Chinese Mandarin) [Example]",
+		"version": "",
+		"author": "",
+		"description": "",
+		"homepage": ""
+	},
+	"ru-RU": {
+		"title": "中文 (Китайский язык) [пример мода]",
+		"version": "",
+		"author": "Ялла Нкардаз@https://github.com/DemerNkardaz",
+		"description": "Мод демонстрирует добавление нового языкового набора локализации.",
+		"homepage": ""
+	}
+}

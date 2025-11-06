@@ -1,0 +1,70 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"roman": "罗马数字"
+		},
+		"generated": {
+			"prefix": { "roman": "罗马" },
+			"tag": { "roman": "罗马" },
+			"before_letter": {
+				"gallicum": "高卢"
+			}
+		},
+		"scripts": {
+			"roman": {
+				"c_num_100000": { "letter_locale": "十万" },
+				"c_num_50000": { "letter_locale": "五万" },
+				"c_num_10000": { "letter_locale": "一万" },
+				"c_num_5000": { "letter_locale": "五千" },
+				"c_num_1000": { "letter_locale": "一千" },
+				"c_num_500": { "letter_locale": "五百" },
+				"c_num_100": { "letter_locale": "一百" },
+				"c_num_100_reversed": { "letter_locale": "一百" },
+				"c_num_50": { "letter_locale": "五十" },
+				"c_num_50_early": { "letter_locale": "五十" },
+				"c_num_12": { "letter_locale": "十二" },
+				"c_num_11": { "letter_locale": "十一" },
+				"c_num_10": { "letter_locale": "十" },
+				"c_num_9": { "letter_locale": "九" },
+				"c_num_8": { "letter_locale": "八" },
+				"c_num_7": { "letter_locale": "七" },
+				"c_num_6": { "letter_locale": "六" },
+				"c_num_6_late": { "letter_locale": "六" },
+				"c_num_5": { "letter_locale": "五" },
+				"c_num_4": { "letter_locale": "四" },
+				"c_num_3": { "letter_locale": "三" },
+				"c_num_2": { "letter_locale": "二" },
+				"c_num_1": { "letter_locale": "一" },
+				"s_num_1000": { "letter_locale": "一千" },
+				"s_num_500": { "letter_locale": "五百" },
+				"s_num_100": { "letter_locale": "一百" },
+				"s_num_50": { "letter_locale": "五十" },
+				"s_num_12": { "letter_locale": "十二" },
+				"s_num_11": { "letter_locale": "十一" },
+				"s_num_10": { "letter_locale": "十" },
+				"s_num_9": { "letter_locale": "九" },
+				"s_num_8": { "letter_locale": "八" },
+				"s_num_7": { "letter_locale": "七" },
+				"s_num_6": { "letter_locale": "六" },
+				"s_num_5": { "letter_locale": "五" },
+				"s_num_4": { "letter_locale": "四" },
+				"s_num_3": { "letter_locale": "三" },
+				"s_num_2": { "letter_locale": "二" },
+				"s_num_1": { "letter_locale": "一" },
+				"n_unit_sextans": { "letter_locale": "六分之一" },
+				"n_unit_uncia": { "letter_locale": "十二分之一" },
+				"n_unit_semuncia": { "letter_locale": "二十四分之一" },
+				"n_unit_sextula": { "letter_locale": "七十二分之一" },
+				"n_unit_dimidia_sextula": { "letter_locale": "一百四十四分之一" },
+				"n_unit_siliqua": { "letter_locale": "一千七百二十八分之一" },
+				"n_unit_denarius": { "letter_locale": "第纳尔" },
+				"n_unit_quinarius": { "letter_locale": "奎纳里" },
+				"n_unit_sesterius": { "letter_locale": "塞斯特斯" },
+				"n_unit_dupondius": { "letter_locale": "杜蓬第" },
+				"n_unit_as": { "letter_locale": "阿斯" },
+				"n_abbr_centuria": { "letter_locale": "百人队" },
+				"n_sym_ascia": { "letter_locale": "斧形符" }
+			}
+		}
+	}
+}

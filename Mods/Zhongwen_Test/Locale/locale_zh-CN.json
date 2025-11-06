@@ -1,0 +1,779 @@
+{
+	"zh-CN": {
+		"dictionary": {
+			"__self": "字典",
+			"about": "关于",
+			"all_characters": "所有字符",
+			"alt_code": "Alt 代码",
+			"alternative_input": "替代输入",
+			"and": "和",
+			"author": "作者",
+			"authors": "作者",
+			"bindings": "绑定",
+			"bindings_none": "无绑定",
+			"cancel": "取消",
+			"character": "字符",
+			"characters": "字符",
+			"clear": "清除",
+			"code_page": "代码页",
+			"code_pages": "代码页",
+			"code_point": "码点",
+			"code_points": "码点",
+			"column": "列",
+			"commands": "命令",
+			"combining_character": "组合字符",
+			"combination": "组合",
+			"combination_key": "组合键",
+			"combination_special": "特殊组合",
+			"create": "创建",
+			"data": "数据",
+			"date": "日期",
+			"decimal": "十进制",
+			"default": "默认",
+			"delete": "删除",
+			"description": "描述",
+			"entry": "条目",
+			"entries": "条目",
+			"entry_name": "条目名称",
+			"et": "和",
+			"exit": "退出",
+			"favorites": "收藏夹",
+			"file": "文件",
+			"files": "文件",
+			"folder": "文件夹",
+			"folders": "文件夹",
+			"font": "字体",
+			"fonts": "字体",
+			"forge": "锻造",
+			"glyph_variations": "字形变体",
+			"help": "帮助",
+			"hexadecimal": "十六进制",
+			"homepage": "主页",
+			"html": "HTML",
+			"html_entity": "HTML 实体",
+			"html_entity_named": "命名实体",
+			"hybrid": "混合",
+			"initialization": "初始化",
+			"internal_id": "内部 ID",
+			"key": "键",
+			"keys": "键",
+			"language": "语言",
+			"languages": "语言",
+			"layout": "布局",
+			"layouts": "布局",
+			"letters": "字母",
+			"mod": "修改",
+			"mods": "修改",
+			"name": "名称",
+			"names": "名称",
+			"page": "页面",
+			"pages": "页面",
+			"press": "按下",
+			"recipe": "配方",
+			"recipes": "配方",
+			"release_link": "发布链接",
+			"reload": "重新加载",
+			"rename": "重命名",
+			"repository": "仓库",
+			"result": "结果",
+			"row": "行",
+			"save": "保存",
+			"script": "脚本",
+			"scripts": "脚本",
+			"search": "搜索",
+			"search_by_tag": "按标签搜索",
+			"seconds_variative": "秒$(|s|s)",
+			"separated": "分隔",
+			"status": "状态",
+			"symbol": "符号",
+			"symbols": "符号",
+			"system_language": "系统语言",
+			"tag": "标签",
+			"tags": "标签",
+			"title": "标题",
+			"titles": "标题",
+			"transcription": "转写",
+			"unicode_point": "Unicode 码点",
+			"unicode_resource": "Unicode 资源",
+			"unknown": "未知",
+			"update": "更新",
+			"updates": "更新",
+			"value": "值",
+			"values": "值",
+			"version": "版本",
+			"view": "视图"
+		},
+		"dynamic_dictionary": {
+			"code_page": "代码页 {}",
+			"page_of": "第 {}/{} 页",
+			"press": "按下 {}"
+		},
+		"first_launch": {
+			"message": [
+				"注意！\n\n",
+				"如果您玩电子游戏——请注意，此工具基于 AutoHotkey 运行，该软件可能在游戏中被禁止，包括后台运行模式，因为有玩家使用 .ahk 脚本来获取对其他玩家的不公平优势。\n\n",
+				"为避免游戏反作弊系统的问题，建议在玩游戏前禁用所有 AutoHotkey 进程。\n\n",
+				"以下游戏风险最高：Marvel Rivals、Apex Legends、使用 BattlEye 反作弊的游戏。"
+			]
+		},
+		"prepare": {
+			"__self": "准备",
+			"fonts_not_found": "系统中缺少所需的主要字体。\n按下“确定”后，将在浏览器中打开字体页面\n\n需要安装的字体："
+		},
+		"init": {
+			"__self": "初始化",
+			"entry": "条目：“\u2008{}\u2008”",
+			"internal_library": "内部库",
+			"custom_recipes": "自定义配方",
+			"binds": "正在初始化绑定",
+			"before_start": "开始前",
+			"after_start": "开始后"
+		},
+		"bundle": {
+			"__self": "捆绑包",
+			"creation": {
+				"__self": "创建",
+				"failed": "捆绑包创建失败。",
+				"failed_pshell": "捆绑包创建失败。PowerShell 脚本退出，代码为 {}。"
+			}
+		},
+		"gui": {
+			"about": {
+				"author_name": "Yalla Nkardaz",
+				"repository_url": "https://github.com/DemerNkardaz/DSL-KeyPad",
+				"description": "版本：{}\n\n用于简化访问各种 Unicode 符号的工具。允许使用各种方法直接从键盘输入它们，包括键盘绑定和“组合模式”。\n\n扩展多语言书写能力，仅要求系统中存在英语和俄语键盘布局。",
+				"library_count": "字符：{} / {} 字形变体\n总组合数：{}\n热键：{}\n配方：{} / {} 唯一\n自定义配方：{} / {} 唯一"
+			},
+			"options": {
+				"__self": "设置",
+				"base": "基本设置",
+				"turn_off_autocheck_updates": "禁用自动更新检查",
+				"update_check": "检查更新",
+				"update_check_failed": "更新检查失败。您可能未连接到互联网。",
+				"update_get": "更新到版本：{}",
+				"update_get_acception": "版本 {} 可用。\n\n是否要安装？",
+				"update_absent": "您已安装最新版本。",
+				"update_failed": "更新未能完成。",
+				"update_failed_pshell": "更新未能完成。PowerShell 脚本退出，代码为 {}。",
+				"update_successful": "更新成功。\n已安装 {} → {}",
+				"update_available": "有可用更新",
+				"update_repair": {
+					"__self": "修复",
+					"description": "修复安装。\n\n您确定要强制覆盖已安装的 DSL KeyPad 版本吗？\n\n所有自定义文件将不受影响。",
+					"success": "修复成功完成。"
+				},
+				"update_found_legacy_files": "安装包中包含新版本未使用的库和/或本地化文件。\n\n是否要删除它们？\n\n文件列表：\n{}",
+				"update_found_legacy_files_overflow_count": "以及另外 {} 个文件。",
+				"update_found_legacy_files_deleted": "删除成功完成。",
+				"letterI": "“I”输入类型",
+				"LaTeX": {
+					"hotstrings": "LaTeX 热字符串",
+					"modes": {
+						"__self": "LaTeX 命令模式",
+						"text": "文本",
+						"math": "数学"
+					}
+				},
+				"HTML": {
+					"modes": {
+						"__self": "HTML 实体模式",
+						"decimal": "十进制",
+						"hexadecimal": "十六进制"
+					}
+				},
+				"IPA": {
+					"use_latin_instead_greek": "使用拉丁符号代替希腊符号"
+				},
+				"UI": {
+					"__self": "用户界面",
+					"scripter": {
+						"selector": {
+							"__self": "脚本选择器",
+							"max_items": "最大项目数/页 [1-47]",
+							"max_columns": "最大列数 [4-12]",
+							"max_columns_threshold": "\u21B3 项目阈值",
+							"use_number_keys": "使用数字键"
+						}
+					}
+				},
+				"compose": {
+					"__self": "组合",
+					"title": "“组合”模式设置",
+					"show_suggestions": "显示建议",
+					"show_favorites": "显示收藏",
+					"show_alt_recipes": "显示替代配方",
+					"font_size": "字体大小",
+					"font_name": "字体名称",
+					"background_color": "背景颜色",
+					"font_color": "字体颜色",
+					"max_line_length": "建议行最大长度",
+					"max_length": "建议最大长度"
+				},
+				"remapping": {
+					"__self": "重映射",
+					"description": "启用重映射后，除 QWERTY/QWERTY 外，所有标准键盘键将根据所选布局重新分配。此设置可能会干扰应用程序绑定，例如游戏。\n\n重映射与自定义布局相关。\n\n在可能的情况下，建议使用类似的系统布局而不是重映射。"
+				},
+				"system_startup": {
+					"add": "添加到启动项",
+					"shortcut_created_or_updated": "启动快捷方式已创建或更新"
+				},
+				"resources": {
+					"__self": "资源"
+				}
+			},
+			"panel": {
+				"__self": "面板",
+				"open": "打开面板",
+				"context_menu": {
+					"add_favorites": "添加到收藏夹",
+					"remove_favorites": "从收藏夹移除",
+					"show_symbol_page": "在 {} 上查看符号",
+					"show_block_page": "在 {} 上查看 Unicode 区块",
+					"glyph_variations": "{@:dictionary.glyph_variations}",
+					"legend": "{@:gui.legend}",
+					"show_entry": "打开条目 {}"
+				},
+				"search_mode": {
+					"__self": "搜索：",
+					"names": "{@:dictionary.names}",
+					"symbols": "{@:dictionary.symbols}",
+					"recipes": "{@:dictionary.recipes}",
+					"keys": "{@:dictionary.keys}",
+					"code_points": "{@:dictionary.code_points}"
+				}
+			},
+			"recipes": {
+				"__self": "我的配方",
+				"attach_list": "附加列表",
+				"create_or_edit": {
+					"__self": "创建/编辑配方",
+					"create": "创建配方",
+					"edit": "编辑配方",
+					"name_restrictions": "（“a–Z”和“_”）",
+					"name": "配方名称",
+					"result": "{@:dictionary.result}：",
+					"overflow_properties": "字符 {}，页 {}"
+				},
+				"warnings": {
+					"remove_confirm": "您真的想删除配方“{}”吗？",
+					"exists": "条目名称为“{}”的自定义配方已存在。",
+					"exists_internal": "标准库中已存在名称为“{}”的条目。\n\n请重命名自定义配方条目。",
+					"xcompose_cannot_be_edited": "无法删除或编辑从“.XCompose”文件提取的配方。",
+					"invalid_name": "名称只能包含英文字母“a–Z”、数字（不在开头）和下划线“_”。",
+					"invalid_section_name": "无效的条目名称。\n{@:gui.recipes.warnings.invalid_name}",
+					"invalid_xcompose_name": "无效的 .XCompose 文件名。\n{@:gui.recipes.warnings.invalid_name}",
+					"invalid_recipe": "无效的配方或结果。\n配方：{}\n结果：{}",
+					"duplicates_found": "检测到配方重复：{}",
+					"xcompose_break": "无法从此窗口删除或编辑从“.XCompose”文件提取的配方。",
+					"autoimported_edit_unable": "无法在此窗口中编辑或删除导入的配方。"
+				},
+				"errors": {
+					"read_error": "配方列表读取错误：条目 {}，配方 {}。",
+					"read_error_reinit": "配方列表读取错误：条目 {}，配方 {}。",
+					"titles": "本地化配方名称“{}”包含错误（语言代码为空或其他错误）。"
+				}
+			},
+			"tabs": {
+				"__self": "标签页",
+				"smelting": "{@default:misc.fire} 锻造配方",
+				"fastkeys": "{@default:misc.insert_key} 快速键",
+				"secondkeys": "{@default:misc.die_face_2} 次要键",
+				"tertiarykeys": "{@default:misc.die_face_3} 第三键",
+				"scripts": "{@default:misc.amphora} {@:dictionary.scripts}",
+				"ipa_keys": "{@default:misc.alembic} IPA 键",
+				"ipa_recipes": "{@default:misc.alembic} IPA 配方",
+				"TELEXVNI": "{@default:misc.mahjong_tile_bamboo} {@default:TELEX}",
+				"help": "{@default:misc.bulb} {@:dictionary.help}",
+				"about": "{@default:misc.info} 关于",
+				"all": "{@default:misc.white_chess_king} 所有符号",
+				"favorites": "{@default:misc.circled_white_start} {@:dictionary.favorites}"
+			},
+			"scripter": {
+				"pages_help": "（F1–F12 — 选择页面）",
+				"alternative_mode": {
+					"__self": "替代模式",
+					"warnings": {
+						"incompatible_with_telex": "当类似 {@default:TELEX} 的模式“{}”处于活动状态时，无法激活替代模式“{}”。"
+					}
+				},
+				"glyph_variations": {
+					"__self": "{@:dictionary.glyph_variations}",
+					"gui_title": "字形变体面板"
+				}
+			},
+			"legend": {
+				"__self": "图例",
+				"description_unavailable": "描述不可用",
+				"name_in_unicode": "Unicode 中的名称",
+				"name_variations": "名称变体",
+				"authors": {
+					"__self": "{@:dictionary.authors}：",
+					"default": "未知"
+				}
+			},
+			"mods": {
+				"__self": "模组",
+				"version": "{@:dictionary.version}：{}",
+				"author": "{@:dictionary.author}：{}",
+				"homepage": "{@:dictionary.homepage}：\n{}",
+				"pre_init": "预初始化",
+				"post_init": "后初始化",
+				"creation": {
+					"__self": "创建模组",
+					"short": "创建模组",
+					"mod_created": "模组 {} 创建成功。",
+					"mod_exists": "已存在文件夹名称为“{}”的模组。",
+					"want_open_folder": "您想打开模组的文件夹吗？"
+				}
+			},
+			"changelog": {
+				"__self": "更新日志"
+			}
+		},
+		"profile": {
+			"__self": "配置文件",
+			"default": "默认",
+			"new": "< 创建 >",
+			"new_name": "配置文件名称",
+			"creation": "创建配置文件"
+		},
+		"help": {
+			"__self": "{@:dictionary.help}",
+			"modifier_keys": {
+				"__self": "修饰键",
+				"description": [
+					"修饰键（如 Shift、Alt、Win 等）在界面中已缩写以保持紧凑：\n\n",
+					"{var:LeftAlt}, {var:RightAlt} — 左 Alt 和右 Alt。\n",
+					"{var:LeftShift}, {var:RightShift} — 左 Shift 和右 Shift。\n",
+					"{var:LeftControl}, {var:RightControl} — 左 Ctrl 和右 Ctrl。\n",
+					"{var:Window} — Win 键。\n",
+					"{var:CapsLock} — 处于活动状态的 CapsLock。"
+				]
+			},
+			"notes": {
+				"__self": "说明",
+				"description": [
+					"1.\u2003该程序仅限于固定的语言布局列表，以防止干扰程序未设计的语言布局的运行。该程序主要为英语和俄语布局设计。所有输入方法仅在以下语言布局上处于活动状态：\n\n",
+					"\u2003•\u2002英语 — 美国、加拿大、英国、爱尔兰、澳大利亚、新加坡、阿联酋、新西兰、伯利兹、菲律宾、牙买加、加勒比、南非、津巴布韦、特立尼达和多巴哥\n",
+					"\u2003•\u2002俄语 — 俄罗斯、白俄罗斯、摩尔多瓦、乌克兰、哈萨克斯坦、吉尔吉斯斯坦\n",
+					"\u2003•\u2002希腊语\n",
+					"\u2003•\u2002越南语\n"
+				]
+			},
+			"common_binds": {
+				"__self": "常用绑定",
+				"description": [
+					"界面：\n",
+					"{var:RightControl} F9 — 打开设置窗口\n",
+					"{var:Window}{var:LeftAlt} Home — 主面板。\n\n",
+					"绑定和输入：\n",
+					"{var:RightControl} F10 — 切换所有绑定状态（开/关）。\n",
+					"{var:RightAlt} F1 — 切换“快速键”状态（开/关，保存到设置文件）。\n",
+					"{var:RightAlt}{var:LeftAlt} F1/F2 — 切换“次要/第三键”状态（互斥）（开/关，保存到设置文件）。\n",
+					"{var:RightAlt}{var:RightShift} F1 — 在 {@default:unicode}/HTML 代码/LaTeX 命令之间切换输入模式。\n\n",
+					"其他：\n",
+					"{var:Window}{var:LeftAlt} PgUp — 为所选符号打开 {@default:unicode} 网页资源。"
+				]
+			},
+			"panel_commands": {
+				"__self": "面板命令",
+				"description": [
+					"右键单击列表项 — 上下文菜单。\n",
+					"双击列表项 — 为符号打开 {@default:unicode} 网页资源。\n\n",
+					"左键单击符号预览底部的 {@default:unicode} 区块 — 打开相应的网页。\n",
+					"按住 {var:LeftShift} 双击列表项 — 将符号添加至或从收藏夹列表移除。\n",
+					"按住 {var:LeftControl} 双击列表项 — 复制符号。"
+				]
+			},
+			"tray_commands": {
+				"__self": "托盘命令",
+				"description": [
+					"右键单击 — 上下文菜单。\n",
+					"左键单击 — 打开主面板。\n",
+					"按住 {var:LeftControl} 左键单击 — 打开设置窗口。\n",
+					"按住 {var:LeftAlt} 左键单击 — 打开自定义配方窗口。\n",
+					"按住 {var:LeftShift} 左键单击 — 打开替代输入选择器。\n",
+					"按住 {var:LeftControl}{var:LeftShift} 左键单击 — 打开字形变体选择器。"
+				]
+			},
+			"selector_binds": {
+				"__self": "选择器绑定",
+				"description": [
+					"F1–12 — 选择页面。\n",
+					"数字（可选）、字母键 — 选择一种模式。\n",
+					"空格键 — 禁用当前活动模式。\n"
+				]
+			},
+			"uncommon_titles": {
+				"__self": "非常见名称",
+				"description": [
+					"对于俄语，各种字母表符号的名称有时是相同的，因此不得不引入扩展的西里尔字母，以防止在同一字母表内符号名称和标签重复：\n",
+					"\u2003•\u2002“\u04AA” — 相当于拉丁二合字母“th”或音素 [\u03B8]。\n",
+					"\u2003•\u2002“\u0498” — 相当于拉丁二合字母“dh”或音素 [\u00F0]。\n",
+					"\u2003•\u2002“\u04B2” — 相当于拉丁二合字母“kh”或音素 [\u0127]。\n",
+					"\u2003•\u2002“\u0492” — 相当于拉丁二合字母“gh”或音素 [\u0263]。\n",
+					"\u2003•\u2002“\u040E” — 相当于音素 [w]。\n",
+					"\u2003•\u2002“\u049A” — 相当于音素 [q]。\n",
+					"\u2003•\u2002“\u052E” — 相当于音素 [\u026C]。"
+				]
+			},
+			"search_at_library": {
+				"__self": "库搜索",
+				"description": [
+					"组合键：{var:Window}{var:LeftAlt} F\n",
+					"大多数库符号都有自己的标签，这些标签是符号名称的变体，可用于通过搜索插入。\n",
+					"完整或部分输入标签（或条目名称）以插入相应的符号。您可以通过逗号分隔一次输入多个查询。示例：\n",
+					"\u2003•\u2002“hellenic capital letter lambda”, “hel lam”, “hel_c_let_l_lambda” → “Λ”\n",
+					"\u2003•\u2002“дез ди, !дез ди”, “lamb, !lamb” → “𐐔𐐼”, “Λλ”。\n",
+					"\u2003•\u2002“reference_mark” → “※”。\n\n",
+					"说明：\n",
+					"\u2003•\u2002查询越短 — 准确性越低。\n",
+					"\u2003•\u2002查询开头的“!”符号告诉搜索使用区分大小写。\n",
+					"\u2003•\u2002支持简单的正则表达式，例如：\n",
+					"\u2003\u2004\u2002\u2003‣\u2002“fut.*?\\s+\\S+al” → “ᚺ”（Hagalaz 如尼文）\n",
+					"\u2003\u2004\u2002\u2003‣\u2002“az$” → “ᛞ”（Mannaz 如尼文）\n",
+					"\u2003\u2004\u2002\u2003‣\u2002“^фра” → “₣”（法郎）。"
+				],
+				"glyph_variations": {
+					"__self": "{@:dictionary.glyph_variations}",
+					"description": [
+						"搜索时，您可以通过在查询末尾添加“::<变体>”来指定所需的字形变体，例如：“lat m::fraktur” → “𝔐”。\n",
+						"\u2003•\u2002modifier — 修饰符，мо，mo。\n",
+						"\u2003•\u2002superscript — 上标，ви，sup。\n",
+						"\u2003•\u2002subscript — 下标，ни，sub。\n",
+						"\u2003•\u2002italic — 斜体，ку，it。\n",
+						"\u2003•\u2002italicBold — 粗斜体，куп，itb。\n",
+						"\u2003•\u2002bold — 粗体，п，b。\n",
+						"\u2003•\u2002fraktur — 尖角体，ф，f。\n",
+						"\u2003•\u2002frakturBold — 粗尖角体，пф，fb。\n",
+						"\u2003•\u2002script — 手写体，р，s。\n",
+						"\u2003•\u2002scriptBold — 粗手写体，пр，sb。\n",
+						"\u2003•\u2002doubleStruck — 双线体，ds。\n",
+						"\u2003•\u2002sansSerif — 无衬线体，бз，ss。\n",
+						"\u2003•\u2002sansSerifItalic — 无衬线斜体，кубз，ssit。\n",
+						"\u2003•\u2002sansSerifItalicBold — 无衬线粗斜体，купбз，ssitb。\n",
+						"\u2003•\u2002sansSerifBold — 无衬线粗体，пбз，ssb。\n",
+						"\u2003•\u2002monospace — 等宽体，м，m。\n",
+						"\u2003•\u2002smallCapital — 小型大写字母，к，sc。\n",
+						"\u2003•\u2002smallCapitalModifier — 小型大写字母修饰符，км，scm。\n",
+						"\u2003•\u2002small — 小型，мал，sm。\n",
+						"\u2003•\u2002combining — 组合用，ко，c。\n",
+						"\u2003•\u2002uncombined — 非组合用，неко，uc。\n",
+						"\u2003•\u2002fullwidth — 全角，пш，fw。\n",
+						"\u2003•\u2002blackletter — 黑体字，bl。\n",
+						"\u2003•\u2002regionalIndicator — 区域指示符，ри，ri。\n",
+						"\u2003•\u2002circled — 圆圈包围，вк，ci。\n",
+						"\u2003•\u2002negativeCircled — 实心圆圈包围，взк，nci。\n",
+						"\u2003•\u2002doubleCircled — 双圆圈包围，вдк，dci。\n",
+						"\u2003•\u2002parenthesized — 括号包围，вск，pr。\n",
+						"\u2003•\u2002squared — 方块包围，вкв，sq。\n",
+						"\u2003•\u2002negativeSquared — 实心方块包围，взкв，nsq。\n",
+						"\u2003•\u2002fullstop — 带句点，стч，fs。\n",
+						"\u2003•\u2002comma — 带逗号，сзп，cm。\n",
+						"\u2003•\u2002tag — 标签字符，т，t。\n",
+						"\u2003•\u2002oblique — 斜体，кя，ob。\n",
+						"\u2003•\u2002segmented — 分段式，сг，sg。\n",
+						"\u2003•\u2002outlined — 轮廓式，кн，ol。\n"
+					]
+				},
+				"funcs": {
+					"__self": "函数和方法调用",
+					"description": [
+						"搜索字段支持调用一些函数和方法，包括：\n",
+						" • “\\” 或 “/Reload” — 重启程序。\n",
+						" • “/Exit” — 关闭程序。\n",
+						" • “/ChrLib.Print” — 生成并打开包含库符号列表的 .HTML 文件。\n",
+						" • “/MyRecipes.Update” — 重新初始化自定义配方。\n",
+						" • “/Update.Get” 或 “/Update.Repair” — 获取更新或修复当前版本。\n",
+						" • “/KbdBinder.Init” — 重新初始化布局和绑定。"
+					]
+				}
+			},
+			"forge": {
+				"__self": "{@:dictionary.forge}",
+				"description": [
+					"将一些符号的序列（“配方”）锻造成其他符号。\n",
+					"分为两种使用方法 — 通过输入对话框和通过“组合模式”，后者在输入字段中通过 {var:RightAlt}×2 组合键直接激活。\n\n",
+					"示例：“AE” → “Æ”, “A◌̆◌́” → “Ắ”, “Bet” → “Ꞵ”, “ΣΤ” → “Ϛ”, “ІАЖ” → “Ѭ”, “ſƷ” → “ẞ”, “TH” → “Þ”。\n\n",
+					"关于组合模式的说明：\n",
+					" • “Pause”键 — 阻止自动配方处理。\n",
+					" • 输入“`”允许输出到组合模式字段而不是发送到活动窗口，这将在处理后允许继续序列。\n",
+					" • 以“A+/А+/Α+” (aаα) 或 “U+/Ю+/Υ+” (uюυ) 开始输入 — 允许通过其 Alt 代码或 Unicode 码点输入符号（可以通过空格分隔输入多个值）。Alt 代码范围 128–255 和 0128–0255 根据键盘语言更改代码页。\n",
+					" • “Enter”键 — 如果暂停模式或 A+/U+ 处于活动状态，则确认输入。\n",
+					" • “Insert”键 — 插入剪贴板内容。\n",
+					" • 以“(<数字>) ”开头，输入结果将重复指定次数，“(4) Ups” → “ƱƱƱƱ”。\n",
+					" • 以“(~) ”开头允许输入整个单词，“(~) Ra◌̂vna◌̆, S◌̦timat◌̦i” → “Râvnă, Știmați”。\n",
+					" • “(<数字>~) ” — 前两点的组合。\n",
+					" • 将“##”与“(~)”一起使用可以转义不需要的组合（tho◌́rr, t##ho◌́rr → þórr, thórr）。"
+				]
+			},
+			"alternative_input": {
+				"__self": "{@:dictionary.alternative_input}",
+				"description": [
+					"组合键：{var:Window}{var:LeftAlt} S\n",
+					"打开一个选择器，其中包含可用于激活的替代输入模式列表，代表用于各种书写形式、字母表的附加绑定层。与类似 {@default:TELEX} 的输入模式不兼容。"
+				]
+			},
+			"glyph_variations": {
+				"__self": "{@:dictionary.glyph_variations}\u200D",
+				"description": [
+					"组合键：{var:Window}{var:LeftAlt} A\n",
+					"打开一个选择器，其中包含可用于激活的字形变体模式列表，代表“规则”，告诉程序发送符号的指定变体而不是符号本身，如果该变体已为该符号注册。"
+				]
+			},
+			"TELEX": {
+				"__self": "类似 {@default:TELEX} 的输入模式",
+				"description": [
+					"通过实现基于越南语 TELEX 和 VNI 布局的行为，便于目标语言的输入。与替代输入模式不兼容。\n\n",
+					"组合键：\n",
+					"{var:Window}{var:LeftAlt} D — 打开通用选择器。\n",
+					"{var:RightAlt} F2 — 激活越南语和嘉莱语模式。\n",
+					"{var:RightAlt}{var:RightShift} F2 — 激活拼音模式。"
+				]
+			},
+			"digit_cases": {
+				"__self": "数字输入模式",
+				"description": [
+					"组合键：\n",
+					"{var:Window}{var:LeftAlt} ↑ 和 ↓ — 创建用于输入上标和下标数字的绑定（¹²³⁴⁵⁶⁷⁸⁹⁰⁻⁼⁽⁾₁₂₃₄₅₆₇₈₉₀₋₌₍₎），而激活 CapsLock 会反转上下标。\n\n",
+					"组合键：\n",
+					"{var:Window}{var:LeftAlt}{var:RightShift} ↑ — 激活罗马数字输入。\n",
+					"\u2003\u2007\u2002组合键：\n",
+					"\u2003•\u20021234567890 → \u2170 \u2171 \u2172 \u2173 \u2174 \u2175 \u2176 \u2177 \u2178 \u2179 / \u2160 \u2161 \u2162 \u2163 \u2164 \u2165 \u2166 \u2167 \u2168 \u2169\n",
+					"\u2003•\u2002{var:LeftShift} 1 2 5 → \u217A \u217B \u217C / \u216A \u216B \u216C\n",
+					"\u2003•\u2002{var:RightShift} 5 0 → \u217E \u217D / \u216E \u216D\n",
+					"\u2003•\u2002{var:RightAlt} 5 0 → \u2181 \u217F / … \u216F\n",
+					"\u2003•\u2002{var:RightAlt}{var:RightShift} 5 0 → \u2187 \u2182\n",
+					"\u2003•\u2002{var:RightAlt}{var:LeftShift} 0 → \u2188\n",
+					"\u2003•\u2002{var:RightAlt}{var:LeftAlt} 5 6 → \u2186 \u2185\n"
+				]
+			},
+			"mirrored_shift": {
+				"__self": "镜像 Shift 组合",
+				"description": [
+					"对于英语和俄语布局，标准的 Shift 组合被镜像到右 Shift 上。\n",
+					"例如，在英语布局活动时，左 Shift + 3 将给出“#”（正常行为），但右 Shift 将给出“№”（就像在俄语布局上按下左 Shift 一样）。在俄语布局活动时，行为完全相反。\n\n",
+					"以下键可使用镜像组合：\n",
+					"\u2003•\u20022 (@ 和 \")\n",
+					"\u2003•\u20023 (# 和 №)\n",
+					"\u2003•\u20024 ($ 和 ;)\n",
+					"\u2003•\u20026 (^ 和 :)\n",
+					"\u2003•\u20027 (&& 和 ?)\n",
+					"\n",
+					"对于西里尔字母，存在使用两个 Shift 的组合：\n",
+					"\u2003•\u2002Х, Ъ — “[]”，添加左 Shift — “{}”\n",
+					"\u2003•\u2002Б, Ю, . — “,./”，添加左 Shift — “<>?”\n",
+					"\u2003•\u2002Ж — “;”，添加左 Shift — “:”\n",
+					"\u2003•\u2002Э — “\"”，添加左 Shift — “'”\n",
+					"\u2003•\u2002Ё — “`”，添加左 Shift — “~”\n",
+					"所有键均根据 QWERTY/ЙЦУКЕН 布局列出。如果使用其他布局，键位可能有所不同。"
+				]
+			},
+
+			"hotstrings": {
+				"__self": "热字符串",
+				"description": [
+					"日期和时间\n",
+					"gtgz, gttd, gtft, gtch, gtfl 返回当前日期/时间，格式如 20251101114040, 2025-11-01, 2025-11-01 11:40:48, 11:40:51 和 2025_11_01-11_40_53\n",
+					"\n",
+					"LaTeX\n",
+					"以 $><LaTeX-命令>$ 格式输入会自动替换为相应的代码符号（如果已注册），例如：$>\\bar{\\AE}$ → Ǣ。"
+				],
+				"temperature_conversion": {
+					"__self": "温度转换",
+					"description": [
+						"输入格式：\\{U+200B}tcalc{<起始><目标>}\n",
+						"激活值输入以将温度从一个温标转换到另一个。示例：\\{U+200B}tcalc{cf} → −12 → 10.40 ℉, \\{U+200B}tcalc{rera} → 44,05 → 590,78 °R。\n\n",
+						"以下温标可用：摄氏 (C)、华氏 (F)、开尔文 (K)、德利尔 (D)、莱顿 (L)、牛顿 (N)、韦奇伍德 (W)、兰金 (RA)、列氏 (RE)、罗默 (RO)、道尔顿 (Da)。\n\n",
+						"格式变体可用，在指定小数部分时选择：\n{U+2003}<整数>.<小数> → 999,727.59 ℃\n",
+						"{U+2003}<整数>,<小数> → 999 727,59 ℃\n",
+						"{U+2003}<整数>.,<小数> → 999.727,59 ℃\n{U+2003}<整数>..<小数> → 999 727.59 ℃\n",
+						"{U+2003}<整数>{U+0027}<小数> → 999'727.59 ℃\n",
+						"{U+2003}<整数>{U+0027}{U+0027}<小数> → 999'727,59 ℃\n\n",
+						"在确认输入前激活 CapsLock 会禁用小数部分四舍五入。"
+					]
+				}
+			},
+			"text_processing": {
+				"__self": "文本处理",
+				"description": "此类别描述了用于编辑字段中所选文本的各种处理器。",
+				"quotes": {
+					"__self": "用引号括起",
+					"description": [
+						"组合键：\n",
+						"{var:LeftAlt} 2 — 将所选文本用引号括起。根据键盘语言和所选文本中是否存在引号设置不同的引号：Меч Танаквиль → Меч «Танаквиль» → «Меч „Танаквиль“», Sword Tanaquil → Sword “Tanaquil” → “Sword ‘Tanaquil’”, Ξίφος Τανακυλλίς → Ξίφος «Τανακυλλίς» → «Ξίφος “Τανακυλλίς”»。"
+					]
+				},
+				"converters": {
+					"__self": "转换器",
+					"description": [
+						"组合键：（选择文本） +\n",
+						"{var:RightControl} \\ 或 {var:RightControl}{var:LeftControl} \\ — 编码为 URI/从 URI 解码：Текст ↔ %D0%A2%D0%B5%D0%BA%D1%81%D1%82。\n\n",
+						"{var:RightControl} T 或 {var:RightControl}{var:LeftControl} T — 转换为标签字符 (0xE0020–0x007E) 或从它们转换为常规字符 (0x0020–0x007E)。\n\n",
+						"{var:RightControl} H 或 {var:RightControl}{var:LeftControl} H — 转换为 HTML 实体（十进制和命名/十六进制）。\n\n",
+						"{var:RightControl} J 或 {var:RightControl}{var:LeftControl} J — \u21B3 同上，但忽略 [a-zA-Zа-яА-ЯёЁ0-9., :;!?()`\"'-+=/\\]。\n\n",
+						"{var:RightControl} Y, U, I — 转换为 Unicode 码点，格式为 \\u0020, 0020 和 0x0020。\n"
+					]
+				},
+				"typographer": {
+					"__self": "排版器",
+					"description": [
+						"组合键：（选择文本）+ {var:RightAlt}F8 / {var:RightAlt}F9（附加规则）\n\n",
+						"根据活动键盘布局语言指定的替换规则处理所选文本。\n",
+						"在某些应用程序中可能不稳定。建议在简单的编辑器中进行文本处理。"
+					],
+					"language_rules": {
+						"russian": {
+							"__self": "语言规则 [俄语]",
+							"description": [
+								"默认规则：",
+								"\n\u2003•\u2002删除双空格、行首和行尾空格、“右侧”标点符号前的空格和“左侧”标点符号后的空格（[« word »] → [«word»]）。",
+								"\n\u2003•\u2002将双连字符替换为全角破折号。",
+								"\n\u2003•\u2002将三个点替换为省略号。",
+								"\n\u2003•\u2002将 [\"*\"] 替换为 [«*»] 并将 [\"\"*\"\"] 替换为 [«„*“»]。",
+								"\n\u2003•\u2002将 «!/?…|?...|...?» 替换为 «!..»/«?..»。",
+								"\n\u2003•\u2002将句点移到右引号之外（.» → ».）。",
+								"\n\u2003•\u2002在数字中每 3 位插入不换行空格（150000000 → 150 000 000）。",
+								"\n\u2003•\u2002在以下情况下将空格替换为不换行空格：",
+								"\n\u2003\u2003‣\u2002当破折号位于句首时（对话）。",
+								"\n\u2003\u2003‣\u2002如果“之前”空格前有标点符号，则在破折号前后（归属）。",
+								"\n\u2003\u2003‣\u2002如果“之前”和“之后”没有标点符号，则在破折号前（主语和谓语等）。",
+								"\n\u2003\u2003‣\u2002数字和货币符号之间。",
+								"\n\u2003\u2003‣\u2002单个字母、连词、某些缩写之后以及“б|бы|ж|же|ли|ль”之前。",
+								"\n\u2003\u2003‣\u2002在段落末尾两个单词之间，如果最后一个单词短于 13 个字符。",
+								"\n\u2003•\u2002在首字母缩写中将空格替换为窄空格。",
+								"\n\u2003•\u2002在以下情况下删除空格：",
+								"\n\u2003\u2003‣\u2002数字与百分比、千分比和基点符号 (% ‰ ‱) 之间。",
+								"\n\u2003•\u2002在以下情况下替换连字符：",
+								"\n\u2003\u2003‣\u2002在数字前使用减号。",
+								"\n\u2003\u2003‣\u2002在数字（包括罗马数字）之间使用半角破折号（范围）。",
+								"\n\u2003\u2003‣\u2002包括半角破折号 — 在以负数开头的范围中使用省略号（−70–100\u2009℃ → −70…100\u2009℃）。",
+								"\n\n附加规则：",
+								"\n\u2003•\u2002将对话开头的空格替换为半圆形空格。",
+								"\n\u2003•\u2002在段落开头添加圆形空格以模拟段落缩进。"
+							]
+						},
+						"english": {
+							"__self": "语言规则 [英语]",
+							"description": [
+								"当前不可用。"
+							]
+						}
+					}
+				}
+			}
+		},
+		"telex_script_processor": {
+			"__self": "类似 {@default:TELEX} 的输入处理器",
+			"labels": {
+				"tieng_viet": "{@:telex_script_processor.labels.vietnamese<dictionary.et>jorai}",
+				"hanyu_pinyin": "{@:telex_script_processor.labels.chinese_romanization}",
+				"vietnamese": "越南语",
+				"jorai": "嘉莱语",
+				"chinese_romanization": "汉语拼音"
+			},
+			"warnings": {
+				"incompatible_with_alternative_modes": "当替代模式“{}”处于活动状态时，无法激活类似 {@default:TELEX} 的模式“{}”。"
+			}
+		},
+		"symbol_search": {
+			"__self": "符号搜索",
+			"prompt": "!big yus — 区分大小写（{U+046B}）。\nbig yus — 不区分大小写（{U+046A} 而不是 {U+046B}）。"
+		},
+		"symbol_smelting": {
+			"__self": "锻造符号",
+			"prompt": "插入成分。"
+		},
+		"script_labels": {
+			"telex_script_processor": {
+				"tieng_viet": "{@:telex_script_processor.labels.vietnamese<dictionary.et>jorai}",
+				"hanyu_pinyin": "{@:telex_script_processor.labels.chinese_romanization}"
+			},
+			"glyph_variations": {
+				"modifier": "修饰符",
+				"combining": "组合字符",
+				"superscript": "上标字符和修饰符",
+				"subscript": "下标字符",
+				"italic": "斜体字符",
+				"bold": "粗体字符",
+				"italic_bold": "粗斜体字符",
+				"sans_serif": "无衬线字符",
+				"sans_serif_italic": "无衬线斜体字符",
+				"sans_serif_bold": "无衬线粗体字符",
+				"sans_serif_italic_bold": "无衬线粗斜体字符",
+				"monospace": "等宽字符",
+				"fullwidth": "全角字符",
+				"small_capital": "小型大写字母",
+				"fraktur": "尖角体字符",
+				"fraktur_bold": "粗尖角体字符",
+				"script": "手写体字符",
+				"script_bold": "粗手写体字符",
+				"double_struck": "双线体字符",
+				"double_struck_italic": "双线体斜体字符",
+				"uncombined": "非组合字符",
+				"regional_indicator": "区域指示符",
+				"circled": "圆圈包围字符",
+				"negative_circled": "实心圆圈包围字符",
+				"double_circled": "双圆圈包围字符",
+				"squared": "方块包围字符",
+				"negative_squared": "实心方块包围字符",
+				"parenthesized": "括号包围字符",
+				"fullstop": "带句点字符",
+				"comma": "带逗号字符",
+				"outlined": "轮廓字符",
+				"segmented": "分段字符",
+				"tag": "标签字符"
+			}
+		},
+		"monitor": {
+			"binds": {
+				"disable": "禁用绑定",
+				"disabled": {
+					"__self": "（已禁用 {}）",
+					"by_user": "由用户",
+					"by_monitor": "由监视器"
+				},
+				"enable": "启用绑定"
+			}
+		},
+		"side_process": {
+			"support": "支持进程"
+		},
+		"current_input_mode": "当前模式：{}",
+		"unicode_range": "[ 范围 U+0000–U+10FFFF ]",
+		"altcode_range": "[ 范围 0–255 或 0128–0255 ]",
+		"messages": {
+			"input_mode_changed": "输入模式已更改为 {}",
+			"input_mode_changed_unicode": "字符 {@default:unicode}",
+			"input_mode_changed_html": "HTML 代码/助记符",
+			"input_mode_changed_latex": "LaTeX 代码",
+			"fastkeys_activated": "快速键已激活\n\n注意：AutoHotkey 会拦截绑定的按键，这可能使在应用程序中使用组合键变得困难。",
+			"fastkeys_deactivated": "快速键已停用"
+		},
+		"warnings": {
+			"cannot_be_executed": "无法执行操作",
+			"wrong_format": "格式错误。",
+			"wrong_format_unicode": "有效输入：范围 0000‒10FFFF 或 U+0000‒10FFFF。",
+			"wrong_format_altcode": "有效输入：仅范围 1‒255/0128‒0255 内的整数，开头可以带或不带“Alt+”。",
+			"cancelled_by_user": "由用户取消",
+			"recipe_absent": "未找到配方",
+			"tag_absent": "未找到带有指定标签的字符：\n\n{}",
+			"duplicate_recipe": "检测到重复配方：{}",
+			"nointernet": "无互联网连接或其他错误。",
+			"user_defined_recipes": {
+				"recipe_or_result_has_empty_value": "文件“{}”中条目“{}”的配方或结果具有空值，将被跳过。",
+				"recipe_format_is_invalid": "文件“{}”中的条目“{}”格式无效。"
+			}
+		},
+		"error": {
+			"__self": "错误",
+			"critical": "严重错误",
+			"unknown": "未知错误",
+			"entry_not_found": "获取名称“{}”的条目时出错。\n\n条目不存在或无效。",
+			"entry_not_found_recipe": "条目“{}”\n配方“{}”包含以下错误：\n\n不存在此名称的条目：“{}”",
+			"invalid_variants_at_name": "名称中变体 [] 的数量必须相同。\n找到 {}，预期 {}\n{}",
+			"at_binds_registratio": "绑定注册期间出错：",
+			"at_library_registratio": "库注册期间出错："
+		}
+	}
+}

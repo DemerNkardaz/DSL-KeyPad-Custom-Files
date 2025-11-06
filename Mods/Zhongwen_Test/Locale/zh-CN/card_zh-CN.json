@@ -1,0 +1,80 @@
+{
+	"zh-CN": {
+		"script_labels": {
+			"card": "纸牌",
+			"playing_card": "扑克牌"
+		},
+		"generated": {
+			"prefix": {
+				"card": "纸牌$(的|的|的)",
+				"playing_card": "扑克牌$(的|的|的)"
+			},
+			"tag": {
+				"card": "纸牌$(的|的|的)",
+				"playing_card": "扑克牌$(的|的|的)"
+			},
+			"before_letter": {
+				"trump": "王牌$(的|的|的)",
+				"spades": "黑桃$(的|的|的)",
+				"hearts": "红心$(的|的|的)",
+				"diamonds": "方块$(的|的|的)",
+				"clubs": "梅花$(的|的|的)"
+			},
+			"after_letter": {
+				"TarotNouveau": "(新塔罗牌)",
+				"spades": "黑桃",
+				"hearts": "红心",
+				"diamonds": "方块",
+				"clubs": "梅花"
+			}
+		},
+		"scripts": {
+			"card": {
+				"n_suite_spade": { "letter_locale": "黑桃" },
+				"n_suite_heart": { "letter_locale": "红心" },
+				"n_suite_diamond": { "letter_locale": "方块" },
+				"n_suite_club": { "letter_locale": "梅花" }
+			},
+			"playing_card": {
+				"n_card_ace": { "letter_locale": "A" },
+				"n_card_two": { "letter_locale": "2" },
+				"n_card_three": { "letter_locale": "3" },
+				"n_card_four": { "letter_locale": "4" },
+				"n_card_five": { "letter_locale": "5" },
+				"n_card_six": { "letter_locale": "6" },
+				"n_card_seven": { "letter_locale": "7" },
+				"n_card_eight": { "letter_locale": "8" },
+				"n_card_nine": { "letter_locale": "9" },
+				"n_card_ten": { "letter_locale": "10" },
+				"n_card_jack": { "letter_locale": "J" },
+				"n_card_knight": { "letter_locale": "骑士" },
+				"n_card_queen": { "letter_locale": "Q" },
+				"n_card_king": { "letter_locale": "K" },
+				"n_card_joker": { "letter_locale": "王牌" },
+				"n_card_back": { "letter_locale": "(牌背)" },
+				"n_card_fool": { "letter_locale": "愚者" },
+				"n_card_trump_individual": { "letter_locale": "个人牌" },
+				"n_card_trump_childhood": { "letter_locale": "童年" },
+				"n_card_trump_youth": { "letter_locale": "青年" },
+				"n_card_trump_maturity": { "letter_locale": "成年" },
+				"n_card_trump_old_age": { "letter_locale": "老年" },
+				"n_card_trump_morning": { "letter_locale": "早晨" },
+				"n_card_trump_afternoon": { "letter_locale": "下午" },
+				"n_card_trump_evening": { "letter_locale": "晚上" },
+				"n_card_trump_night": { "letter_locale": "夜晚" },
+				"n_card_trump_earth_and_air": { "letter_locale": "土与风" },
+				"n_card_trump_water_and_fire": { "letter_locale": "水与火" },
+				"n_card_trump_dance": { "letter_locale": "舞蹈" },
+				"n_card_trump_shopping": { "letter_locale": "购物" },
+				"n_card_trump_open_air": { "letter_locale": "户外" },
+				"n_card_trump_visual_arts": { "letter_locale": "视觉艺术" },
+				"n_card_trump_spring": { "letter_locale": "春" },
+				"n_card_trump_summer": { "letter_locale": "夏" },
+				"n_card_trump_autumn": { "letter_locale": "秋" },
+				"n_card_trump_winter": { "letter_locale": "冬" },
+				"n_card_trump_the_game": { "letter_locale": "游戏" },
+				"n_card_trump_collective": { "letter_locale": "集体牌" }
+			}
+		}
+	}
+}
