@@ -32,6 +32,7 @@
 			"default": "默认",
 			"delete": "删除",
 			"description": "描述",
+			"edit": "编辑",
 			"entry": "条目",
 			"entries": "条目",
 			"entry_name": "条目名称",

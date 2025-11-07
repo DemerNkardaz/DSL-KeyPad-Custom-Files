@@ -139,17 +139,32 @@ Class Mod__Zhongwen_Test {
 	)
 
 	static __New() {
-		this.languageInitializationEvent := Event.OnEvent("Language", "Initialized", (*) => (
-			Language.supported["zh-CN"].Set("locale", True),
-			Language.supported["zh-CN"].Set("generatedLocale", True)
-		))
+		this.languageInitializationEvent := Event.OnEvent("Language", "Initialized", InitializeZhongwenLanguageAttributes)
+		this.localeInitializationEvent := Event.OnEvent("Locale", "Initialized", InitializeZhongwenLocaleAttributes)
 
-		this.localeInitializationEvent := Event.OnEvent("Locale", "Initialized", (*) => (
-			LocaleGenerator.AddRule("zh-CN", "prejuction", (str, lang, *) => RegExReplace(str, "\{prejuction\}", Locale.Read("generated.postfix.zh_dai", lang))),
-			LocaleGenerator.AddRule("zh-CN", "conjunction", (str, lang, *) => RegExReplace(str, "\{conjuction\}", Locale.Read("generated.postfix.zh_de", lang))),
-			LocaleGenerator.wordSeparators.Set("zh-CN", ""),
-			LocaleGenerator.wordAltSeparators.Set("zh-CN", ""),
+		return
+
+		InitializeZhongwenLanguageAttributes(*) {
+			Language.supported["zh-CN"].Set("locale", True)
+			Language.supported["zh-CN"].Set("generatedLocale", True)
+		}
+
+		InitializeZhongwenLocaleAttributes(*) {
+			Locale.InitReadRuleLocale("zh-CN")
+			; Initializes independent Locale.Read() rules for specified language
+			Locale.SetReadRule("zh-CN", "[On Combine] Add Space", False)
+			; Disables spaces when Locale.Read() is used to get text combined from several keys
+			; @en-US: Locale.Read("script_labels.germanic_runes<dictionary.and>glagolitic") => "Germanic Runes and Glagolitic"
+			; @zh-CN: Locale.Read(...) => "日耳曼卢恩文 和 格拉哥里字母" <= Without Locale.SetReadRule(...) = False
+			; @zh-CN: Locale.Read(...) => "日耳曼卢恩文和格拉哥里字母" <= With Locale.SetReadRule(...) = False
+
+			LocaleGenerator.AddRule("zh-CN", "prejuction", (str, lang, *) => RegExReplace(str, "\{prejuction\}", Locale.Read("generated.postfix.zh_dai", lang)))
+			LocaleGenerator.AddRule("zh-CN", "conjunction", (str, lang, *) => RegExReplace(str, "\{conjuction\}", Locale.Read("generated.postfix.zh_de", lang)))
+
+			LocaleGenerator.wordSeparators.Set("zh-CN", "")
+			LocaleGenerator.wordAltSeparators.Set("zh-CN", "")
+
 			LocaleGenerator.SetFormatEntry("zh-CN", this.GENERATED_FORMATS)
-		))
+		}
 	}
 }
