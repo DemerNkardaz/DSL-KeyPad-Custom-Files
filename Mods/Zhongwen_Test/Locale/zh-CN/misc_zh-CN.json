@@ -1,5 +1,31 @@
 {
 	"zh-CN": {
+		"script_labels": {
+			"display_modifier": "显示修饰符",
+			"emoji_component": "Emoji 组件"
+		},
+		"generated": {
+			"prefix": {
+				"display_modifier": "显示修饰符",
+				"emoji_component": "Emoji 组件"
+			},
+			"tag": {
+				"display_modifier": "显示修饰符",
+				"emoji_component": "Emoji 组件"
+			}
+		},
+		"scripts": {
+			"display_modifier": {
+				"n_neu_variation_selector": { "letter_locale": "变体选择符" },
+				"n_neu_fitzpatrick": { "letter_locale": "Fitzpatrick 皮肤类型" }
+			},
+			"emoji_component": {
+				"n_neu_red_hair": { "letter_locale": "红色头发" },
+				"n_neu_curly_hair": { "letter_locale": "卷曲头发" },
+				"n_neu_bald": { "letter_locale": "无头发" },
+				"n_neu_white_hair": { "letter_locale": "白色头发" }
+			}
+		},
 		"left_cjk_tortoise_shell": "左龟甲括号（CJK）",
 		"right_cjk_tortoise_shell": "右龟甲括号（CJK）",
 		"top_cjk_tortoise_shell": "上龟甲括号（CJK）",

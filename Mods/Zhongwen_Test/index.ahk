@@ -4,20 +4,10 @@ Class Mod__Zhongwen_Test {
 	static tools := ModTools(A_LineFile)
 
 	static GENERATED_FORMATS := Map(
-		"titlePostfix", (&data, &postfixText) => (
-			postfixText
-		),
-		"titleAltPostfix", (&data, &postfixText) => (
-			postfixText
-		),
-		"titlePostfixMulti", (&data, &postfixText) => (
-			Locale.Read(data.pfx "postfix.and", data.lang)
-			postfixText
-		),
-		"titleAltPostfixMulti", (&data, &postfixText) => (
-			Locale.Read(data.pfx "postfix.and", data.lang)
-			postfixText
-		),
+		"titlePostfix", (&data, &postfixText) => postfixText,
+		"titleAltPostfix", (&data, &postfixText) => postfixText,
+		"titlePostfixMulti", (&data, &postfixText) => (data.postfixAnd postfixText),
+		"titleAltPostfixMulti", (&data, &postfixText) => (data.postfixAnd postfixText),
 		"title", (&data) => (
 			(data.titlePostfixText != "" ? "{prejuction}" : "")
 			data.titlePostfixText
@@ -27,7 +17,7 @@ Class Mod__Zhongwen_Test {
 			Locale.Read(data.pfx "prefix." data.lScript (!data.isGermanic ? data.scriptAdditive : ""), data.lang, , , , data.lVariant)
 			(data.boundsCollector["script"][data.langCode].Length > 0 ? data.boundsCollector["script"][data.langCode][2] : "")
 			data.lBeforeType
-			data.localedCase Locale.Read(data.pfx "type." data.lType, data.lang)
+			data.localedCase (data.typeIsNeutral ? "" : Locale.Read(data.pfx "type." data.lType, data.lang))
 			data.lAfterType
 			(data.isGermanic && data.scriptAdditive != "" ? Locale.Read(data.pfx "prefix." data.lScript data.scriptAdditive, data.lang, , , , data.lVariant) : "")
 			data.lBeforeletter
@@ -43,7 +33,7 @@ Class Mod__Zhongwen_Test {
 			data.titlePostfixText
 			(data.titlePostfixText != "" ? "{conjuction}" : "")
 			data.lBeforeAltTitle
-			Locale.Read(data.pfx "type." data.lType, data.lang)
+			(data.typeIsNeutral ? "" : Locale.Read(data.pfx "type." data.lType, data.lang))
 			data.lBeforeletter
 			data.postLetter
 			data.lAfterletter
@@ -56,7 +46,7 @@ Class Mod__Zhongwen_Test {
 			data.titlePostfixText
 			(data.titlePostfixText != "" ? "{conjuction}" : "")
 			data.lBeforeTitle
-			(!data.isGermanic ? data.localedCase data.lBeforeType Locale.Read(data.pfx "type." data.lType, data.lang) data.lAfterType : "")
+			(data.typeIsNeutral ? "" : (!data.isGermanic ? data.localedCase data.lBeforeType Locale.Read(data.pfx "type." data.lType, data.lang) data.lAfterType : ""))
 			data.lBeforeletter
 			data.postLetter
 			data.lAfterletter
@@ -64,38 +54,71 @@ Class Mod__Zhongwen_Test {
 			data.lCopyNumber
 			data.lAfterTitle
 		),
-		"tag", (&data, tagBase) => (
-			Locale.Read(data.pfx "tag." data.lScript, data.lang, , , , data.lVariant)
-			(data.isGermanic ? Locale.Read(data.pfx "type." data.lType, data.lang) : "")
-			data.tagScriptAdditive
-			tagBase
-		),
-		"hiddenTagBase", (&data) => (
-			(data.titlePostfixText != "" ? "{prejuction}" : "")
-			data.titlePostfixText
-			(data.titlePostfixText != "" ? "{conjuction}" : "")
-			data.lHiddenBeforeTitle
-			(!data.isGermanic ? data.localedCase data.lHiddenBeforeType (Locale.Read(data.pfx "type." data.lType, data.lang, True, &hidden) ? hidden : Locale.Read(data.pfx "type." data.lType, data.lang)) data.lHiddenAfterType : "")
-			data.lHiddenBeforeletter
-			data.hiddenLetter
-			data.lHiddenAfterletter
-			data.lSecondName
-			data.lCopyNumber
-			data.lHiddenAfterTitle
-		),
-		"hiddenTag", (&data, hiddenTagBase) => (
-			data.tagScriptAtStart ?
-				(
-					(Locale.Read(data.pfx "tag." data.lScript ".__hidden", data.lang, True, &hidden, , data.lVariant) ? hidden : Locale.Read(data.pfx "tag." data.lScript, data.lang, , , , data.lVariant))
-					(data.isGermanic ? (Locale.Read(data.pfx "type." data.lType ".__hidden", data.lang, True, &hidden) ? hidden : Locale.Read(data.pfx "type." data.lType, data.lang)) : "")
-					data.hiddenTagScriptAdditive
-					hiddenTagBase
-				)
-			: (
-				hiddenTagBase
-				(Locale.Read(data.pfx "tag." data.lScript ".__hidden", data.lang, True, &hidden, , data.lVariant) ? hidden : Locale.Read(data.pfx "tag." data.lScript, data.lang, , , , data.lVariant))
-			)
-		),
+		"tag", (&data) => [
+			Locale.Read(data.pfx "tag." data.lScript, data.lang, , , , data.lVariant),
+			(data.typeIsNeutral ? "" : (data.isGermanic ? Locale.Read(data.pfx "type." data.lType, data.lang) : "")),
+			data.tagScriptAdditive,
+			; Tag Base [
+			(data.titlePostfixText != "" ? "{prejuction}" : ""),
+			data.titlePostfixText,
+			(data.titlePostfixText != "" ? "{conjuction}" : ""),
+			data.lBeforeTitle,
+			(data.typeIsNeutral ? "" : (!data.isGermanic ? data.localedCase data.lBeforeType Locale.Read(data.pfx "type." data.lType, data.lang) data.lAfterType : "")),
+			data.lBeforeletter,
+			data.postLetter,
+			data.lAfterletter,
+			data.lSecondName,
+			data.lCopyNumber,
+			data.lAfterTitle,
+			; ]
+		],
+		"hiddenTagBase", (&data) => [
+			(data.titlePostfixText != "" ? "{prejuction}" : ""),
+			data.titlePostfixText,
+			(data.titlePostfixText != "" ? "{conjuction}" : ""),
+			data.lHiddenBeforeTitle,
+			(data.typeIsNeutral ? "" : (!data.isGermanic ? data.localedCase data.lHiddenBeforeType (Locale.Read(data.pfx "type." data.lType, data.lang, True, &hidden) ? hidden : Locale.Read(data.pfx "type." data.lType, data.lang)) data.lHiddenAfterType : "")),
+			data.lHiddenBeforeletter,
+			data.hiddenLetter,
+			data.lHiddenAfterletter,
+			data.lSecondName,
+			data.lCopyNumber,
+			data.lHiddenAfterTitle,
+		],
+		"hiddenTag", (&data, &hiddenTagBase) => data.tagScriptAtStart ? [
+			(Locale.Read(data.pfx "tag." data.lScript ".__hidden", data.lang, True, &hidden, , data.lVariant) ? hidden : Locale.Read(data.pfx "tag." data.lScript, data.lang, , , , data.lVariant)),
+			(data.typeIsNeutral ? "" : (data.isGermanic ? (Locale.Read(data.pfx "type." data.lType ".__hidden", data.lang, True, &hidden) ? hidden : Locale.Read(data.pfx "type." data.lType, data.lang)) : "")),
+			data.hiddenTagScriptAdditive,
+			; Tag Base [
+			(data.titlePostfixText != "" ? "{prejuction}" : ""),
+			data.titlePostfixText,
+			(data.titlePostfixText != "" ? "{conjuction}" : ""),
+			data.lHiddenBeforeTitle,
+			(data.typeIsNeutral ? "" : (!data.isGermanic ? data.localedCase data.lHiddenBeforeType (Locale.Read(data.pfx "type." data.lType, data.lang, True, &hidden) ? hidden : Locale.Read(data.pfx "type." data.lType, data.lang)) data.lHiddenAfterType : "")),
+			data.lHiddenBeforeletter,
+			data.hiddenLetter,
+			data.lHiddenAfterletter,
+			data.lSecondName,
+			data.lCopyNumber,
+			data.lHiddenAfterTitle,
+			; ]
+		] : [
+			; Tag Base [
+			(data.titlePostfixText != "" ? "{prejuction}" : ""),
+			data.titlePostfixText,
+			(data.titlePostfixText != "" ? "{conjuction}" : ""),
+			data.lHiddenBeforeTitle,
+			(data.typeIsNeutral ? "" : (!data.isGermanic ? data.localedCase data.lHiddenBeforeType (Locale.Read(data.pfx "type." data.lType, data.lang, True, &hidden) ? hidden : Locale.Read(data.pfx "type." data.lType, data.lang)) data.lHiddenAfterType : "")),
+			data.lHiddenBeforeletter,
+			data.hiddenLetter,
+			data.lHiddenAfterletter,
+			data.lSecondName,
+			data.lCopyNumber,
+			data.lHiddenAfterTitle,
+			; ]
+			(Locale.Read(data.pfx "tag." data.lScript ".__hidden", data.lang, True, &hidden, , data.lVariant) ? hidden : Locale.Read(data.pfx "tag." data.lScript, data.lang, , , , data.lVariant)),
+		]
+		,
 		"additiveTitle", (&data) => (
 			data.lAdditionalBeforeTitle
 			(data.boundsCollector["script"][data.lang].Length > 0 ? data.boundsCollector["script"][data.lang][1] : "")
@@ -112,7 +135,7 @@ Class Mod__Zhongwen_Test {
 			data.proxyMark
 			data.lAdditionalAfterTitle
 		),
-		"additiveTagBase", (&data) => (
+		"additiveTag", (&data) => (
 			data.lAdditionalBeforeTitle
 			data.scriptTag
 			data.lAdditionalBeforeType
@@ -124,7 +147,7 @@ Class Mod__Zhongwen_Test {
 			data.lAdditionalCopyNumber
 			data.lAdditionalAfterTitle
 		),
-		"additiveHiddenTagBase", (&data) => (
+		"additiveHiddenTag", (&data) => (
 			data.lHiddenAdditionalBeforeTitle
 			data.scriptHiddenTag
 			data.lHiddenAdditionalBeforeType
@@ -154,9 +177,10 @@ Class Mod__Zhongwen_Test {
 			; Initializes independent Locale.Read() rules for specified language
 			Locale.SetReadRule("zh-CN", "[On Combine] Add Space", False)
 			; Disables spaces when Locale.Read() is used to get text combined from several keys
-			; @en-US: Locale.Read("script_labels.germanic_runes<dictionary.and>glagolitic") => "Germanic Runes and Glagolitic"
-			; @zh-CN: Locale.Read(...) => "日耳曼卢恩文 和 格拉哥里字母" <= Without Locale.SetReadRule(...) = False
-			; @zh-CN: Locale.Read(...) => "日耳曼卢恩文和格拉哥里字母" <= With Locale.SetReadRule(...) = False
+			; @call: Locale.Read("script_labels.germanic_runes<dictionary.and>glagolitic") => String...
+			; @en-US: "Germanic Runes and Glagolitic"	<= Default
+			; @zh-CN: "日耳曼卢恩文 和 格拉哥里字母"	<= Without	Locale.SetReadRule(...) == False
+			; @zh-CN: "日耳曼卢恩文和格拉哥里字母"		<= With			Locale.SetReadRule(...) == False
 
 			LocaleGenerator.AddRule("zh-CN", "prejuction", (str, lang, *) => RegExReplace(str, "\{prejuction\}", Locale.Read("generated.postfix.zh_dai", lang)))
 			LocaleGenerator.AddRule("zh-CN", "conjunction", (str, lang, *) => RegExReplace(str, "\{conjuction\}", Locale.Read("generated.postfix.zh_de", lang)))
