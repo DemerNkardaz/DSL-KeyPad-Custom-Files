@@ -8,7 +8,8 @@ Class Mod__Zhongwen_Test {
 		"titleAltPostfix", (&data, &postfixText) => postfixText,
 		"titlePostfixMulti", (&data, &postfixText) => (data.postfixAnd postfixText),
 		"titleAltPostfixMulti", (&data, &postfixText) => (data.postfixAnd postfixText),
-		"copyNumber", (&data, &copyNumber) => ("［" copyNumber "］"),
+		"copyNumber", (&data, &copyNumber) => ("［" LocaleGenerator.RenderNumber(copyNumber, data.lang, ObjBindMethod(this, "RenderNumberRule_zhCN")) "］"),
+		"indexNumber", (&data, &indexNumber) => (UnicodeUtils.FullWidth(indexNumber)),
 		"title", (&data) => (
 			(data.titlePostfixText != "" ? "{prejuction}" : "")
 			data.titlePostfixText
@@ -166,6 +167,8 @@ Class Mod__Zhongwen_Test {
 		this.languageInitializationEvent := Event.OnEvent("Language", "Initialized", InitializeZhongwenLanguageAttributes)
 		this.localeInitializationEvent := Event.OnEvent("Locale", "Initialized", InitializeZhongwenLocaleAttributes)
 
+		; MsgBox(UnicodeUtils.FullWidth("AÁ€$#BCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 -=+[]\\;,'./<>?~!@#$%^&*()_|\`"'"))
+
 		return
 
 		InitializeZhongwenLanguageAttributes(*) {
@@ -192,5 +195,44 @@ Class Mod__Zhongwen_Test {
 
 			LocaleGenerator.SetFormatEntry("zh-CN", this.GENERATED_FORMATS)
 		}
+	}
+
+	static RenderNumberRule_zhCN(&parts, &part, &i) {
+		str := String(part)
+		result := ""
+
+		if i > 1 {
+			prevPart := parts[i - 1]
+			prevPower := StrLen(String(prevPart)) - 1
+			currPower := StrLen(String(part)) - 1
+
+			if prevPower - currPower > 1 {
+				result .= "number.0+"
+			}
+		}
+
+		if SubStr(str, 1, 1) = "1" && RegExMatch(str, "^1(0+)$", &match) {
+			zeros := StrLen(match[1])
+			base := 10 ** zeros
+
+			if base >= 100
+				result .= "number.1+number." base
+			else
+				result .= "number." base
+
+			return "[-space]" result
+		}
+
+		if RegExMatch(str, "^[2-9]\d*0+$") {
+			firstDigit := SubStr(str, 1, 1)
+			zeros := StrLen(str) - 1
+			base := 10 ** zeros
+
+			result .= "number." firstDigit "<>" base
+			return "[-space]" result
+		}
+
+		result .= "number." part
+		return "[-space]" result
 	}
 }
