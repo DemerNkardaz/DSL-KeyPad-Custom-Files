@@ -1,0 +1,36 @@
+{
+	"en-US": {
+		"script_labels": {
+			"gender": "Gender",
+			"sexuality": "Sexuality",
+			"lgbtq_biological": "{@:script_labels.biological}"
+		},
+		"generated": {
+			"prefix": {
+				"gender": "Gender",
+				"sexuality": "Attraction",
+				"lgbtq_biological": "{@:generated.prefix.biological}"
+			},
+			"tag": {
+				"gender": "gender",
+				"sexuality": "attraction",
+				"lgbtq_biological": "{@:generated.tag.biological}"
+			}
+		},
+		"scripts": {
+			"gender": {
+				"n_sym_neutrois": { "letter_locale": "Neutrois" },
+				"n_sym_androgyne": { "letter_locale": "Androgyne" },
+				"n_sym_transgender": { "letter_locale": "Transgender" }
+			},
+			"sexuality": {
+				"n_sym_male_homosexuality": { "letter_locale": "Male Homosexuality (Gay)" },
+				"n_sym_female_homosexuality": { "letter_locale": "Female Homosexuality (Lesbian)" },
+				"n_sym_bisexual": { "letter_locale": "Bisexual" }
+			},
+			"lgbtq_biological": {
+				"n_sym_intersex": { "letter_locale": "Intersex" }
+			}
+		}
+	}
+}

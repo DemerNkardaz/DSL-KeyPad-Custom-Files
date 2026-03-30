@@ -1,0 +1,19 @@
+[
+	"sexuality_n_sym_male_homosexuality", {
+		"unicode": "26A3",
+		"recipe": ["sx gy"]
+	},
+	"gender_n_sym_[androgyne,transgender]", {
+		"unicode": ["26A5", "26A7"],
+		"recipe": [
+			["gd ag", "b isx"],
+			["gd tr"]
+		],
+		"symbol": {
+			"tagAdditive": [
+				[{ "script": "lgbtq_biological", "letter": "intersex" }],
+				[]
+			]
+		}
+	}
+]

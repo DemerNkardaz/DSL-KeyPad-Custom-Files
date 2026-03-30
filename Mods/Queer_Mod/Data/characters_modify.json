@@ -1,0 +1,14 @@
+[
+	"astronomical_n_sym_planet_[venus]_classical", {
+		"recipe[1]": ["gd nt"],
+		"symbol": {
+			"tagAdditive": [{ "script": "gender", "letter": "neutrois" }]
+		}
+	},
+	"astrological_n_sym_asteroid_[vesta,chiron,astraea,hygiea,pholus,nessus,pallas,juno,sappho]", {
+		"recipe[last]": ["sx ls"],
+		"symbol": {
+			"tagAdditive[last]": [{ "script": "sexuality", "letter": "female_homosexuality" }]
+		}
+	}
+]

@@ -1,0 +1,36 @@
+{
+	"ru-RU": {
+		"script_labels": {
+			"gender": "Гендер",
+			"sexuality": "Сексуальность",
+			"lgbtq_biological": "{@:script_labels.biological}"
+		},
+		"generated": {
+			"prefix": {
+				"gender": "Гендерн$(ая|ый|ое)",
+				"sexuality": "Ориентационн$(ая|ый|ое)",
+				"lgbtq_biological": "{@:generated.prefix.biological}"
+			},
+			"tag": {
+				"gender": "гендерн$(ая|ый|ое)",
+				"sexuality": "ориентационн$(ая|ый|ое)",
+				"lgbtq_biological": "{@:generated.tag.biological}"
+			}
+		},
+		"scripts": {
+			"gender": {
+				"n_sym_neutrois": { "letter_locale": "Нейтруа" },
+				"n_sym_androgyne": { "letter_locale": "Андрогин" },
+				"n_sym_transgender": { "letter_locale": "Трансгендер" }
+			},
+			"sexuality": {
+				"n_sym_male_homosexuality": { "letter_locale": "Мужская гомосексуальность (Гей)" },
+				"n_sym_female_homosexuality": { "letter_locale": "Женская гомосексуальность (Лесбиянка)" },
+				"n_sym_bisexual": { "letter_locale": "Бисексуальность" }
+			},
+			"lgbtq_biological": {
+				"n_sym_intersex": { "letter_locale": "Интерсекс" }
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+﻿{
+	"title": "Queer Mod",
+	"version": "1.0.0",
+	"type": "pre_init",
+	"description": "Adds queer symbols and info to several symbols",
+	"author": "Yalla Nkardaz",
+	"homepage": "",
+	"en-US": {
+		"title": "",
+		"version": "",
+		"author": "",
+		"description": "",
+		"homepage": ""
+	},
+	"ru-RU": {
+		"title": "",
+		"version": "",
+		"author": "",
+		"description": "",
+		"homepage": ""
+	},
+	"zh-CN": {
+		"title": "",
+		"version": "",
+		"author": "",
+		"description": "",
+		"homepage": ""
+	}
+}
