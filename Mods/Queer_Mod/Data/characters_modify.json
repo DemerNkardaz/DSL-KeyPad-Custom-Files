@@ -1,4 +1,10 @@
 [
+	"alchemical_n_sym_antimony[,_salt]_sublimate", {
+		"recipe[1]": ["gd nb"],
+		"symbol": {
+			"tagAdditive[1]": [{ "script": "gender", "letter": "nonbinary" }]
+		}
+	},
 	"astronomical_n_sym_planet_[venus]_classical", {
 		"recipe[1]": ["gd nt"],
 		"symbol": {

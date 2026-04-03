@@ -21,7 +21,8 @@
 			"gender": {
 				"n_sym_neutrois": { "letter_locale": "Neutrois" },
 				"n_sym_androgyne": { "letter_locale": "Androgyne" },
-				"n_sym_transgender": { "letter_locale": "Transgender" }
+				"n_sym_transgender": { "letter_locale": "Transgender" },
+				"n_sym_nonbinary": { "letter_locale": "Nonbinary" }
 			},
 			"sexuality": {
 				"n_sym_male_homosexuality": { "letter_locale": "Male Homosexuality (Gay)" },

@@ -21,7 +21,8 @@
 			"gender": {
 				"n_sym_neutrois": { "letter_locale": "Нейтруа" },
 				"n_sym_androgyne": { "letter_locale": "Андрогин" },
-				"n_sym_transgender": { "letter_locale": "Трансгендер" }
+				"n_sym_transgender": { "letter_locale": "Трансгендер" },
+				"n_sym_nonbinary": { "letter_locale": "Небинарный" }
 			},
 			"sexuality": {
 				"n_sym_male_homosexuality": { "letter_locale": "Мужская гомосексуальность (Гей)" },

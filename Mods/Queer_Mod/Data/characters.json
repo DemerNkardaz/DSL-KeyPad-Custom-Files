@@ -1,17 +1,20 @@
 [
 	"sexuality_n_sym_male_homosexuality", {
 		"unicode": "26A3",
-		"recipe": ["sx gy"]
+		"recipe": ["${astrological_n_sym_planet_mars×2}", "sx gy"]
 	},
 	"gender_n_sym_[androgyne,transgender]", {
 		"unicode": ["26A5", "26A7"],
 		"recipe": [
-			["gd ag", "b isx"],
-			["gd tr"]
+			["${astrological_n_sym_planet_venus}${astrological_n_sym_planet_mars}", "gd ag", "b isx"],
+			["${astrological_n_sym_planet_venus}${astrological_n_sym_planet_mars}${alchemical_n_sym_iron_crocus_2}", "gd tr"]
 		],
 		"symbol": {
 			"tagAdditive": [
-				[{ "script": "lgbtq_biological", "letter": "intersex" }],
+				[
+					{ "script": "lgbtq_biological", "letter": "intersex" },
+					{ "script": "botanical", "letter": "perfect_flower" }
+				],
 				[]
 			]
 		}
