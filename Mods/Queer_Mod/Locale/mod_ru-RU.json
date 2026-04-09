@@ -3,17 +3,20 @@
 		"script_labels": {
 			"gender": "Гендер",
 			"sexuality": "Сексуальность",
+			"altersex": "Альтерсекс",
 			"lgbtq_biological": "{@:script_labels.biological}"
 		},
 		"generated": {
 			"prefix": {
 				"gender": "Гендерн$(ая|ый|ое)",
 				"sexuality": "Ориентационн$(ая|ый|ое)",
+				"altersex": "[Альтерсекс-идентичность]",
 				"lgbtq_biological": "{@:generated.prefix.biological}"
 			},
 			"tag": {
 				"gender": "гендерн$(ая|ый|ое)",
 				"sexuality": "ориентационн$(ая|ый|ое)",
+				"altersex": "[альтерсекс-идентичность]",
 				"lgbtq_biological": "{@:generated.tag.biological}"
 			}
 		},
@@ -28,6 +31,9 @@
 				"n_sym_male_homosexuality": { "letter_locale": "Мужская гомосексуальность (Гей)" },
 				"n_sym_female_homosexuality": { "letter_locale": "Женская гомосексуальность (Лесбиянка)" },
 				"n_sym_bisexual": { "letter_locale": "Бисексуальность" }
+			},
+			"altersex": {
+				"n_sym_salmacian": { "letter_locale": "Салмакиан" }
 			},
 			"lgbtq_biological": {
 				"n_sym_intersex": { "letter_locale": "Интерсекс" }

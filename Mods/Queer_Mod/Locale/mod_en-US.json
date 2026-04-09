@@ -3,17 +3,20 @@
 		"script_labels": {
 			"gender": "Gender",
 			"sexuality": "Sexuality",
+			"altersex": "Altersex",
 			"lgbtq_biological": "{@:script_labels.biological}"
 		},
 		"generated": {
 			"prefix": {
 				"gender": "Gender",
 				"sexuality": "Attraction",
+				"altersex": "Altersex",
 				"lgbtq_biological": "{@:generated.prefix.biological}"
 			},
 			"tag": {
 				"gender": "gender",
 				"sexuality": "attraction",
+				"altersex": "altersex",
 				"lgbtq_biological": "{@:generated.tag.biological}"
 			}
 		},
@@ -28,6 +31,9 @@
 				"n_sym_male_homosexuality": { "letter_locale": "Male Homosexuality (Gay)" },
 				"n_sym_female_homosexuality": { "letter_locale": "Female Homosexuality (Lesbian)" },
 				"n_sym_bisexual": { "letter_locale": "Bisexual" }
+			},
+			"altersex": {
+				"n_sym_salmacian": { "letter_locale": "Salmacian" }
 			},
 			"lgbtq_biological": {
 				"n_sym_intersex": { "letter_locale": "Intersex" }

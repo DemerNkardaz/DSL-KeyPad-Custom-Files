@@ -5,10 +5,11 @@ Class Mod__Queer_Mod {
 		local charactersModifyData := JSON.LoadFile(this.tools.paths.data "\characters_modify.json", "UTF-8")
 		local charactersData := JSON.LoadFile(this.tools.paths.data "\characters.json", "UTF-8")
 		local uiMainGuiData := JSON.LoadFile(this.tools.paths.data "\ui_main_panel_lists.json", "UTF-8")
+		local domainsData := JSON.LoadFile(this.tools.paths.data "\domains.json", "UTF-8")
 
 		Event.OnEvent("Character Library", "Raw Entries Counted", Handle)
 
-		Event.OnEvent("Character Library", "Default Ready", () => (ChrLib.AddScript("gender", "sexuality", "lgbtq_biological"), ChrReg(charactersData, , True)))
+		Event.OnEvent("Character Library", "Default Ready", () => (ChrLib.AddScript(domainsData*), ChrReg(charactersData, , True)))
 		Event.OnEvent("UI Instance [Panel]", "Created", SetPanelData)
 
 		return

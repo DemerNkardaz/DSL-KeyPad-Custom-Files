@@ -16,5 +16,11 @@
 		"symbol": {
 			"tagAdditive[last]": [{ "script": "sexuality", "letter": "female_homosexuality" }]
 		}
+	},
+	"astrological_n_sym_[conjuction,opposition,sextile,semisextile,quincunx,sesquiquadrate,retrograde]", {
+		"recipe[1]": ["as sl"],
+		"symbol": {
+			"tagAdditive[1]": [{ "script": "altersex", "letter": "salmacian" }]
+		}
 	}
 ]
